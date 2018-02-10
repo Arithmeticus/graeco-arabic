@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003.ref-logical-native">
+   
+   <head>
+      <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961</name>
+      <license which="public zero"/>
+      <licensor who="mjs grc"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003</IRI>
+         <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961</name>
+         <location href="psMenan-Gr_003.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003.ref-scriptum-native-by-page</IRI>
+         <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961 as TAN-T resegmenting the text via untyped pb</name>
+         <location href="psMenan-Gr_003.tan-t.ref-scriptum-native-by-page.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="p" which="paragraph"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="mjs" which="Mark J. Schiefsky"/>
+         <person xml:id="grc" which="Gregory R. Crane"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="mjs grc" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Gr_003</change>
+      <change who="xslt1" when="2018-02-07T00:07:52.333-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="grc">
+      <div type="sentence" n="1"> 
+         <div type="p" n="1">ἀρχὴν ἁπάντων καὶ τέλος ποιοῦ Θεόν. </div> 
+      </div>
+      <div type="sentence" n="2"> 
+         <div type="p" n="1">βίου τὸ κέρδος εὖ βιοῦν καθ᾿ ἡμέραν. </div> 
+      </div>
+      <div type="sentence" n="3"> 
+         <div type="p" n="1">γίνωσκε πάντα τῶν καλῶν τὰ δράματα. </div> 
+      </div>
+      <div type="sentence" n="4"> 
+         <div type="p" n="1">δεινὸν πένεσθαι, χεῖρον δ᾿ εὐπορεῖν κακῶς. </div> 
+      </div>
+      <div type="sentence" n="5"> 
+         <div type="p" n="1">εὐεργετῶν νόμιζε μιμεῖσθαι Θεόν. </div> 
+      </div>
+      <div type="sentence" n="6"> 
+         <div type="p" n="1">ζήτει θεοῦ σοι χρηστότητα χρηστὸς ὤν. </div> 
+      </div>
+      <div type="sentence" n="7"> 
+         <div type="p" n="1">ἡ σὰρξ κρατείσθω καὶ δαμαζέσθω καλῶς. </div> 
+      </div>
+      <div type="sentence" n="8"> 
+         <div type="p" n="1">θυμὸν χαλίνου, μὴ φρενῶν ἔξω πέσῃς. </div> 
+      </div>
+      <div type="sentence" n="9"> 
+         <div type="p" n="1">ἵστη μὲν ὄμμα, γλῶσσα δὲ στάθμην ἔχοι. </div> 
+      </div>
+      <div type="sentence" n="10"> 
+         <div type="p" n="1">κλεὶς ὠσὶ κείσθω, μηδὲ πορνεύοι γέλως. </div> 
+      </div>
+      <div type="sentence" n="11"> 
+         <div type="p" n="1">λύχνος βίου σοι παντὸς ἡγείσθω λόγος. </div> 
+      </div>
+      <div type="sentence" n="12"> 
+         <div type="p" n="1">μή σοι τὸ εἶναι τῷ δοκεῖν ὑπορρέοι. </div> 
+      </div>
+      <div type="sentence" n="13"> 
+         <div type="p" n="1">νόει τὰ πάντα, πρᾶσσε δ᾿ ἃ πράσσειν θέμις. </div> 
+      </div>
+      <div type="sentence" n="14"> 
+         <div type="p" n="1">ξένον σεαυτὸν ἴσθι, καὶ τίμα ξένους. </div> 
+      </div>
+      <div type="sentence" n="15"> 
+         <div type="p" n="1">ὅτ᾿ εὐπλοεῖς, μάλιστα μέμνησο ζάλης. </div> 
+      </div>
+      <div type="sentence" n="16"> 
+         <div type="p" n="1">πάντ᾿ εὐχαρίστως δεῖ δέχεσθαι τἀκ Θεοῦ. </div> 
+      </div>
+      <div type="sentence" n="17"> 
+         <div type="p" n="1">ῥάβδος δικαίου πλεῖον ἢ τιμὴ κακοῦ. </div> 
+      </div>
+      <div type="sentence" n="18"> 
+         <div type="p" n="1">σοφῶν θύρας ἔκτριβε, πλουσίων δὲ μή. </div> 
+      </div>
+      <div type="sentence" n="19"> 
+         <div type="p" n="1">τὸ μικρὸν οὐ μικρόν, ὅταν ἐκφέρῃ μέγα. </div> 
+      </div>
+      <div type="sentence" n="21"> 
+         <div type="p" n="1">φύλασσε σαυτόν, πτῶμα δ᾿ ἄλλου μὴ γέλα. </div> 
+      </div>
+      <div type="sentence" n="22"> 
+         <div type="p" n="1">χάρις φθονεῖσθαι, τὸ φθονεῖν δ᾿ αἶσχος μέγα. </div> 
+      </div>
+      <div type="sentence" n="23"> 
+         <div type="p" n="1">ψυχὴ θύοιτο μᾶλλον ἢ τὸ πᾶν θεῷ. </div> 
+      </div>
+      <div type="sentence" n="24"> 
+         <div type="p" n="1">ὢ τίς φυλάξει ταῦτα καὶ σωθήσεται. </div> 
+      </div>
+   </body>
+   
+</TAN-T>

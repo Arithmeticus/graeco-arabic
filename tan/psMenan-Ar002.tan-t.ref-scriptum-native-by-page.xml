@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar002.ref-scriptum-native-by-page">
+   
+   <head>
+      <name>Sententiae (version Men ar II) by pseudo-Menander in ara published 1961</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar002</IRI>
+         <name>Sententiae (version Men ar II) by pseudo-Menander in ara published 1961</name>
+         <location href="psMenan-Ar002.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar002.ref-logical-native</IRI>
+         <name>Sententiae (version Men ar II) by pseudo-Menander in ara published 1961 as TAN-T following original leaf divs and converting nesting elements to &lt;div&gt;s</name>
+         <location href="psMenan-Ar002.tan-t.ref-logical-native.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="page" which="page"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Ar002</change>
+      <change who="xslt1" when="2018-02-07T00:10:43.913-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara"> 
+         <div type="page" n="64">الفظ بخير نشيطا وتعلمه أيضا فضيلة الرجل من لفظه تعرف اختر فى الأول أن تحسن عبادتك لله غايته صالحة [sic] الرأى الخبيث لن تكن أكرم الوالدين واستحى من الشيوخ إن زينة المرأة مذهبها وليس ذهبها لا تتهاون بأحد من أجل فقره وعسره ما أشد بصر النساء بإصابة الحيل الموافق [sic] اسمع الأشياء كلها واختار عداوة غير مائتة لا تحفظ إذ كنت مائتا </div>
+      <div type="page" n="65">دم أن تضبط لسانك... عظيما إن لطائف النساء ضحكة عند الأعفاء كن للأصدقاء والغرباء عادلا إن الفقر لشديد ولكن اليسر الردىء شر منه إن كنت يا فاضل ميتا فليكن فكرك أيضا ميتا إن للحق عينا هى تبصر كل شىء إن مذهب الإنسان يعرف من الفضة خاصة إن العيش الردىء الموت خير منه إنا نعيش بغير فكر إذا لم نبصر الموت </div>
+      <div type="page" n="66">الخلق السىء يبعد من الله ومن الكافة أخلاق الكل فى الزمان الكبير تجرب تحفظ من الغضب فإن العقل بعيد منه ما أحسن للإنسان أن يضبط غيظه وشهوته سبيل مصائب أصدقائك أن تكون عندك كمصائبك كن مساويا لكل أحد وإن زدت عليهم فى الغنى ما أحسن للإنسان أن يفتقر فقرا جميلا ولا يستغنى غناء قبيحا الآن يميز الأصدقاء كم تميزالنار الذهب </div>
+      <div type="page" n="67">إذا ما أحببت نفسك كثيرا فلن تقتنى صديقا إن الأدب مثل ميناء للناس أجمعين لا تجعل نفسك أبدا للذة عبدا اذكر إذا كنت غنيا أن تنفع الفقراء سبيل كل عفيف أن يتبع النواميس تصور أنك غنى إذا كثر أصدقاءك إن أنت كفيت الغرباء وصلت فى وقت إلى مثل ما تصنع وبخ نفسك كائنا من كنت إذا أتيت فاحشا ستعيش عيشا طيبا إن ملكت غيظك سبيلك أن تعيش وتقدر معيشتك بقدر مدتك </div>
+      <div type="page" n="68">إما أن تقول خيرا وإلا فأمسك إن اللسان سبب لكثير من الشرور ألجم الغضب حتى لا تسقط خارج العقل إن المرأة أشد وحشة من الوحوش كن بالسوية حاكما لأصدقائك وغير أصدقائك إن الوقوع فى قبضة النساء مثل السقوط فى النار إن ثمر الأخلاق الجميلة ثمر جميل ذاك منك بغضب [sic] عاقب إذا ما حكمت ولكن لا يكون إن الصديق الصالح طبيب الأحزان لا تحكم وأنت تنظر إلى الحسن بل إلى المذهب لا تهرب من صديق إن سقط فى سوء </div>
+      <div type="page" n="69">إن العقل رئيس على كل شىء من المنافع لقد يحسن الصمت بالأحداث أكثر من الكلام إذا رأيت غرباء فقربهم ولا تبعدهم عول أن أوصاف (؟) الفضيلة وصوفك تصور أن الذين هم غرباء من الفضيلة هم أيضا غرباء عندك ليس شىء من القنية خير من الصديق إن العمر له نقل غير معروفة إن الزمان يصير لجماعة معلما لا تؤثر أن تستقصى عن سيئات غيرك </div>
+      <div type="page" n="70">خلص نفسك من كل طريقة غير صالحة إذا كنت دنسا فلن يكون لك صديق صالح احفظ نفسك حرا فى أخلاقك اقبل مشورة من رجل حكيم إن اعرف نفسك نافعة لكل أحد الأرباح القبيحة تصنع المصائب ألجم هواك وقد صرت حكيما كبيرا إن الرجل المداجى شبكة مستورة إن النظر الى الله دائما ضوء للعقل كن محبا للتعب وقد اقتنيت عمرا حسنا إن صديقا محتاجا إلى صديق ليس بصديق </div>
+      <div type="page" n="71">إن المرأة السوء شتاء شديد على البيت إن الكلمة الطيبة دواء للنفس المريضة إن السيف يجرح الجسم والكلمة تجرح العقل ليس أحد مع الغيظ يستقيم له الرأى الرصين ليس يمكن شريرا أن يستتر عن الله صديقا [sic] رجلا شريرا لا تقتنى دم أن تنضر أكثر من المقاولة فى حكم عصا الصديق أفضل من كرامة الشرير إن الوعظ أسهل من الصبر على العارض إن الصمت أفضل من أن يتكلم الإنسان بما لا ينبغى </div>
+      <div type="page" n="72">أذا جاورت الحكماء خرجت أنت أيضا حكيما إن العيش هذا هو أن لا يعيش الواحد لنفسه وحدها فى حسن العبادة التطوع والقنوت تكلم وتعلم لن يملك عاقل من قبل لذة ماء بحر طريقة المتصعبين احفظ نفسك من سقطة غيرك لا تضحك اهرب من لذة تؤول فيها بعد مضرة قد ينبغى أن يسر الأحرار من الآلام ما سبيل الإنسان أن يفرح بالأمور الفواحش إن عشق الأجسام حتف على النفوس </div>
+      <div type="page" n="73">إن العقل لجام كبير للشره إن الذين رأستهم أجوافهم قد انتزعت منهم عقولهم إن الصغير لكبير إذا أعطى فى وقته يا شيخوخة إنك لشر سبيل الناس أن يهربوا منه </div>
+   </body>
+   
+</TAN-T>

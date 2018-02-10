@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021.ref-logical-native">
+   
+   <head>
+      <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Aristotle Manṭiq 1952"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021</IRI>
+         <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952</name>
+         <location href="Arist-Ar_021.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021.ref-scriptum-native-by-page</IRI>
+         <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952 as TAN-T resegmenting the text via untyped pb</name>
+         <location href="Arist-Ar_021.tan-t.ref-scriptum-native-by-page.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="De sophisticis elenchis"/>
+         <div-type xml:id="p" which="paragraph"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="chapter" which="chapter"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at Arist-Ar_021</change>
+      <change who="xslt1" when="2018-02-07T00:39:34.19-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara">
+      <div type="chapter" n="0"> 
+         <div type="p" n="p1">بسم الله الرحمن الرحيم </div> 
+         <div type="title" n="1">«سوفسطيقا» بنقل الفاضل أبى زكريا يحيى بن عدى — أعلى الله منزلته — ، وبنقل أبى على عيسى بن اسحق بن زرعة، وبنقل قديم منسوب إلى الناعمى، مثبت فى كل صفح ما نقله كل واحد، وغيره، عن المعانى الثابتة فى ذلك الصفح </div> 
+         <div type="title" n="2">كتاب أرسطوطالس على «مباكتة السوفسطائيين» ترجمة أخرى: </div> 
+      </div>
+      <div type="chapter" n="1"> 
+         <div type="p" n="1">إنا قائلون على المباكتات السوفسطائية التى ترى أنها مباكتات، وإنما هى مضلات وليس بمباكتات؛ ومبتدئون كالطبيعة من المقدمات الأولى. ومن المعروف أن من القياسات ما هو موجود، ومنها ما ليس بموجود، لكن يظن أنه صحيح. وكما أنه قد يكون فى سائر الأشياء الاشتباه، وأن يلحق الظن فيها من قبل الاشتباه، كذلك يكون فى الكلام أيضا. وقياس ذلك أن من ذوى النيات من له النية الحسنة، ومنهم من يتراءى بحسن النية ويفخر بها ويموه بإظهار التصاون. </div> 
+      </div>
+      <div type="chapter" n="35"> 
+         <div type="p" n="1">][ نسخت هذا النقل من نسخة بخط الشيخ أبى الخير الحسن بن سوار رضى الله عنه. وفى آخرها ما هذه حكايته: </div> 
+         <div type="p" n="2">نسخت هذا النقل من نسخة خيل إلى أنها بخط أبى نصر الفارابى، كان النصف الأول منها مصححا جيدا، والنصف الثانى مسقاما. </div> 
+         <div type="p" n="3">قال الشيخ أبو الخير الحسن بن سوار رضى الله عنه: </div> 
+         <div type="p" n="4">لما كان الناقل يحتاج — فى تأدية المعنى إلى فهمه باللغة التى منها ينقل — إلى أن يكون متصورا له كتصور قائله، وإلى أن يكون عارفا باستعمال اللغة التى منها ينقل، والتى إليها ينقل، وكان أثانس الراهب غير قيم بمعانى أرسطوطالس فيه — داخل نقله الخلل لا محالة. </div> 
+         <div type="p" n="5">ولما كان من نقل هذا الكتاب من السريانية بنقل أثانس — إلى العربية، ممن قد ذكر اسمه، لم يقع إليهم تفسير له — عولوا على أفهامهم فى إدراك معانيه: فكل اجتهد فى إصابة الحق وإدراك الغرض الذى إياه قصد الفيلسوف، فغيروا ما فهموه من نقل أثانس إلى العربية؛ </div> 
+         <div type="p" n="6">فلأنا أحببنا الوقوف على ما وقع لكل واحد منهم، كتبنا جميع النقول التى وقعت إلينا، ليقع التأمل لكل واحد منها ويستعان ببعضها على بعض فى إدراك المعنى. </div> 
+         <div type="p" n="7">وقد كان الفاضل يحيى بن عدى فسر هذا الكتاب تفسيراً رأيت منه الكثير وقدرته نحوا من ثلثيه بالسريانية والعربية، وأظن 〈أنه〉 تممه، ولم يوجد فى كتبه بعد وفاته، وتصرفت بى الظنون فى أمره: فتارة أظن أنه أبطله لأنه لم يرتضه، وتارة أظن أنه سرق، وهذا أقوى فى نفسى. ونقل هذا الكتاب النقل المذكور قبل تفسيره إياه، فلذلك لحق نقله اعتياص ما لأنه لم يشارف المعنى، واتبع السريانى فى النقل. </div> 
+         <div type="p" n="8">وقد وجد فى وقتنا هذا تفسير الإسكندر الأفروذيسى له باليونانية، تعجز من أوله كراسة، ولم يخرج منه إلا اليسير. </div> 
+         <div type="p" n="9">واتصل بى أن أبا إسحق ابراهيم بن بكوش نقل هذا الكتاب من السريانى إلى العربى، وأنه كان يجتمع مع يوحنا القس اليونانى المهندس المعروف بابن فتيلة، على إصلاح مواضع منه من اليوانى. ولم يقع إلى. </div> 
+         <div type="p" n="10">وقيل إن أبا بشر — رحمه الله — أصلح النقل الأول، أو نقله نقلا آخر، ولم يقع إلى. </div> 
+         <div type="p" n="11">وكتبت هذه الجملة ليعلم من يقع إليه هذا الكتاب صورة أمره والسبب فى إثباتى جميع النقول على السبيل المسطور ][ </div> 
+         <div type="p" n="12">هنا تنتهى المخطوطة رقم ٢٣٤٦ عربى بالمكتبة الأهلية بباريس. </div> 
+      </div>
+   </body>
+   
+</TAN-T>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psArist-Ar_002.ref-logical-native">
+   
+   <head>
+      <name>De somniis by pseudo-Aristotle in ara published 1971</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="aristotelischen Überlieferung 1971"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psArist-Ar_002</IRI>
+         <name>De somniis by pseudo-Aristotle in ara published 1971</name>
+         <location href="psArist-Ar_002.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psArist-Ar_002.ref-scriptum-native-by-page</IRI>
+         <name>De somniis by pseudo-Aristotle in ara published 1971 as TAN-T resegmenting the text via untyped pb</name>
+         <location href="psArist-Ar_002.tan-t.ref-scriptum-native-by-page.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="De somniis"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <div-type xml:id="title" which="title"/>
+         <div-type xml:id="prologue" which="prologue"/>
+         <div-type xml:id="p" which="paragraph"/>
+         <div-type xml:id="epilogue" which="epilogue"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psArist-Ar_002</change>
+      <change who="xslt1" when="2018-02-07T00:11:39.164-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara">
+      <div type="title" n="title">| مقالة من كلام المعلم الأول أرسطاطاليس فى الرؤيا </div>
+      <div type="prologue" n="1">بسم الله الرحمن الرحيم </div>
+      <div type="p" n="2">قال الرؤيا حركة للبقايا التى بقيت من المحسوسات، يعنى أن القوة المتخيلة إذا انفردت بنفسها فارغةً فى حال النوم فإنها تعود إلى ما عندها من المحسوسات فتركب بعضها على بعض وتفصل بعضها عن بعض وتحاكى المعقولات والقوة الغاذية والنزوعية وما يصادف البدن من المزاج، فإن صادفه رطباً حاكت الرطوبة كالمياه والسباحة | وإن صادفه يابساً حاكت اليبوسة </div>
+      <div type="p" n="3">وربما حاكت القوة النزوعية بأفعال الجماع فينهض أعضاؤه للاستعداد نحو فعله، وتحاكى القوة الناطقة بما يحصل فيها من المعقولات التى فى نهاية الكمال كالسبب الأول والأشياء والمفارقة للمادة </div>
+      <div type="p" n="4">ومتى قويت المتخيلة فى شخص لا يستوى عليه المحسوسات فكان حاله فى اليقظة كحاله فى النوم فإنه يعود ويرسم رسوماً فى المشترك وانفعلت عنها القوة الباصرة فيحصل رسومها فى الهواء الواصل للبصر، ثم يعود فيرسم فى القوة المتخيلة ويصير كالمتحد بالعقل الفعال فيرى أشياء عظاماً عجيبة </div>
+      <div type="p" n="5">فإن النفس إذا تحركت نحو أفقها الأعلى بحسب نظرها الإلهى وتجردت عن الحواس رأت الأشياء البسيطة الروحانية، وإذا تحركت نحو أفقها الأولى بحسب نظرها الطبيعى فإنها تتصفح الأشياء الجزئية التى استعدت لها من المحسوسات التى لا نظام لها ولا فائدة فيها، وربما ركبت هذه الصور تركيباً عبثاً ويسمى اضغاث أحلام </div>
+      <div type="p" n="6">قال أرسطوطاليس محبة المال وتد التسرق </div>
+      <div type="p" n="7">قال سقراط الصدق يدل على اعتدال وزن العقل </div>
+      <div type="p" n="8">قال أفلاطون من نكر الشر لغيره فقد قبل الشر فى نفسه </div>
+      <div type="p" n="9">وقال سقراط لا يرتفع أحد فوق درجته إلا فسد </div>
+      <div type="p" n="10">قال أبو سليمن السجزى إنا أستحسن ما حكى عن ذيمقراطيس فإنه قال السابح فى بحرنا لا ساحل له إلا هو </div>
+      <div type="p" n="11">وكان من دعاء سقراط اللهم إنى أتوسل | إليك بشدة غيرتى عليك فوحقك لقد كففت خاطرى عن الإيماء نحوك فضلاً عن لسانى فى تحقيق وصفك، وإذا كان — يا إلهى — هذا خبرى فيك — فما ذا حديثى عنك مع عبرى من أجلك </div>
+      <div type="p" n="12">مر أرسطوطاليس برجل قطعت يده فقال أحذت ما ليس لك فأخذوا أمتك ما لك </div>
+      <div type="p" n="13">قال أرسطوطاليس الجاهل عدو لنفسه فكيف يكون صديقاً لغيره </div>
+      <div type="p" n="14">قال الفضل بن سهل لو وزن كلمة رسول الله صلى الله عليه وسلم بأحسن كلام الناس لرجع: إنكم إن يتسعوا الناس بأموالكم فسعوهم بأخلاقكم، صدق رسول الله، وخير الكلام ما صدر وختم بكلام الله ورسوله </div>
+      <div type="epilogue" n="15">تمت بعون الملك الوهاب </div>
+   </body>
+   
+</TAN-T>

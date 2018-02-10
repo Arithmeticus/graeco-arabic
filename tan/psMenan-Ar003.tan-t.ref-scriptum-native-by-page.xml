@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003.ref-scriptum-native-by-page">
+   
+   <head>
+      <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003</IRI>
+         <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961</name>
+         <location href="psMenan-Ar003.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003.ref-logical-native</IRI>
+         <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961 as TAN-T following original leaf divs and converting nesting elements to &lt;div&gt;s</name>
+         <location href="psMenan-Ar003.tan-t.ref-logical-native.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="page" which="page"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Ar003</change>
+      <change who="xslt1" when="2018-02-07T00:10:45.15-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara"> 
+         <div type="page" n="77">اجعل الله بدء أمرك وكماله ربح العمر العيش الهنئ يوما بيوم اعرف كل شىء واختر أفضله ما أردأ الفقر وشر منه الغنى الردىء إذا كنت محسنا فاعلم أنك بالله متشبه اطلب خير الأمور من إلهك فتكون صالحا اضبط جسدك وأوثقه بالقيود ألجم غضبك لئلا تقع خارجا من عقلك </div>
+      <div type="page" n="78">ساو نظرك وليكن لسانك ميزانا اجعل غلقا لأذنيك لئلا تكون ضحكة للزناة اتخذ العلم سراجا لعمرك كله لا تظن بنفسك غير ما أنت فهلك اعرف كل شىء واعمل الذى ينبغى غريبا اجعل نفسك وأكرم الغرباء إذا طاب سير سفينتك عند ذلك اتق الغرق </div>
+      <div type="page" n="79">ينبغى أن تقبل كل ما يأتى من الله بشكر عصاة الصديق أفضل من كرامة الشرير ثابر على أبواب الحكماء وأما الأغنياء فلا ليس الصغير بصغير إذا خرج إلى الأمر الكبير احتمل شتيمة صغيرة تمدح كثيرا احفظ نفسك ولا تفرح بسقطة غيرك </div>
+      <div type="page" n="80">الموهبة أن لا تحسد والزلل أن تكون حسودا اذبح نفسك لله أفضل من كل شىء من يحفظ هذا يخلص ناجيا </div>
+   </body>
+   
+</TAN-T>

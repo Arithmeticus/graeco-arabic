@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003.ref-scriptum-native-by-page">
+   
+   <head>
+      <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961</name>
+      <license which="public zero"/>
+      <licensor who="mjs grc"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003</IRI>
+         <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961</name>
+         <location href="psMenan-Gr_003.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Gr_003.ref-logical-native</IRI>
+         <name>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek) by pseudo-Menander in grc published 1961 as TAN-T following original leaf divs and converting nesting elements to &lt;div&gt;s</name>
+         <location href="psMenan-Gr_003.tan-t.ref-logical-native.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="page" which="page"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="mjs" which="Mark J. Schiefsky"/>
+         <person xml:id="grc" which="Gregory R. Crane"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="mjs grc" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Gr_003</change>
+      <change who="xslt1" when="2018-02-07T00:07:52.333-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="grc"> 
+         <div type="page" n="77">ἀρχὴν ἁπάντων καὶ τέλος ποιοῦ Θεόν. βίου τὸ κέρδος εὖ βιοῦν καθ᾿ ἡμέραν. γίνωσκε πάντα τῶν καλῶν τὰ δράματα. δεινὸν πένεσθαι, χεῖρον δ᾿ εὐπορεῖν κακῶς. εὐεργετῶν νόμιζε μιμεῖσθαι Θεόν. ζήτει θεοῦ σοι χρηστότητα χρηστὸς ὤν. ἡ σὰρξ κρατείσθω καὶ δαμαζέσθω καλῶς. θυμὸν χαλίνου, μὴ φρενῶν ἔξω πέσῃς. </div>
+      <div type="page" n="78">ἵστη μὲν ὄμμα, γλῶσσα δὲ στάθμην ἔχοι. κλεὶς ὠσὶ κείσθω, μηδὲ πορνεύοι γέλως. λύχνος βίου σοι παντὸς ἡγείσθω λόγος. μή σοι τὸ εἶναι τῷ δοκεῖν ὑπορρέοι. νόει τὰ πάντα, πρᾶσσε δ᾿ ἃ πράσσειν θέμις. ξένον σεαυτὸν ἴσθι, καὶ τίμα ξένους. ὅτ᾿ εὐπλοεῖς, μάλιστα μέμνησο ζάλης. </div>
+      <div type="page" n="79">πάντ᾿ εὐχαρίστως δεῖ δέχεσθαι τἀκ Θεοῦ. ῥάβδος δικαίου πλεῖον ἢ τιμὴ κακοῦ. σοφῶν θύρας ἔκτριβε, πλουσίων δὲ μή. τὸ μικρὸν οὐ μικρόν, ὅταν ἐκφέρῃ μέγα. <!--<div1 type='sentence' n='20'>
+<p>
+ 
+</p>
+</div1>-->φύλασσε σαυτόν, πτῶμα δ᾿ ἄλλου μὴ γέλα. </div>
+      <div type="page" n="80">χάρις φθονεῖσθαι, τὸ φθονεῖν δ᾿ αἶσχος μέγα. ψυχὴ θύοιτο μᾶλλον ἢ τὸ πᾶν θεῷ. ὢ τίς φυλάξει ταῦτα καὶ σωθήσεται. </div>
+   </body>
+   
+</TAN-T>

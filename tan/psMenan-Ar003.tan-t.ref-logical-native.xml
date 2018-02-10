@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003.ref-logical-native">
+   
+   <head>
+      <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003</IRI>
+         <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961</name>
+         <location href="psMenan-Ar003.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar003.ref-scriptum-native-by-page</IRI>
+         <name>Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX) by pseudo-Menander in ara published 1961 as TAN-T resegmenting the text via untyped pb</name>
+         <location href="psMenan-Ar003.tan-t.ref-scriptum-native-by-page.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="p" which="paragraph"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Ar003</change>
+      <change who="xslt1" when="2018-02-07T00:10:45.15-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara">
+      <div type="sentence" n="1"> 
+         <div type="p" n="1">اجعل الله بدء أمرك وكماله </div> 
+      </div>
+      <div type="sentence" n="2"> 
+         <div type="p" n="1">ربح العمر العيش الهنئ يوما بيوم </div> 
+      </div>
+      <div type="sentence" n="3"> 
+         <div type="p" n="1">اعرف كل شىء واختر أفضله </div> 
+      </div>
+      <div type="sentence" n="4"> 
+         <div type="p" n="1">ما أردأ الفقر وشر منه الغنى الردىء </div> 
+      </div>
+      <div type="sentence" n="5"> 
+         <div type="p" n="1">إذا كنت محسنا فاعلم أنك بالله متشبه </div> 
+      </div>
+      <div type="sentence" n="6"> 
+         <div type="p" n="1">اطلب خير الأمور من إلهك فتكون صالحا </div> 
+      </div>
+      <div type="sentence" n="7"> 
+         <div type="p" n="1">اضبط جسدك وأوثقه بالقيود </div> 
+      </div>
+      <div type="sentence" n="8"> 
+         <div type="p" n="1">ألجم غضبك لئلا تقع خارجا من عقلك </div> 
+      </div>
+      <div type="sentence" n="9"> 
+         <div type="p" n="1">ساو نظرك وليكن لسانك ميزانا </div> 
+      </div>
+      <div type="sentence" n="10"> 
+         <div type="p" n="1">اجعل غلقا لأذنيك لئلا تكون ضحكة للزناة </div> 
+      </div>
+      <div type="sentence" n="11"> 
+         <div type="p" n="1">اتخذ العلم سراجا لعمرك كله </div> 
+      </div>
+      <div type="sentence" n="12"> 
+         <div type="p" n="1">لا تظن بنفسك غير ما أنت فهلك </div> 
+      </div>
+      <div type="sentence" n="13"> 
+         <div type="p" n="1">اعرف كل شىء واعمل الذى ينبغى </div> 
+      </div>
+      <div type="sentence" n="14"> 
+         <div type="p" n="1">غريبا اجعل نفسك وأكرم الغرباء </div> 
+      </div>
+      <div type="sentence" n="15"> 
+         <div type="p" n="1">إذا طاب سير سفينتك عند ذلك اتق الغرق </div> 
+      </div>
+      <div type="sentence" n="16"> 
+         <div type="p" n="1">ينبغى أن تقبل كل ما يأتى من الله بشكر </div> 
+      </div>
+      <div type="sentence" n="17"> 
+         <div type="p" n="1">عصاة الصديق أفضل من كرامة الشرير </div> 
+      </div>
+      <div type="sentence" n="18"> 
+         <div type="p" n="1">ثابر على أبواب الحكماء وأما الأغنياء فلا </div> 
+      </div>
+      <div type="sentence" n="19"> 
+         <div type="p" n="1">ليس الصغير بصغير إذا خرج إلى الأمر الكبير </div> 
+      </div>
+      <div type="sentence" n="20"> 
+         <div type="p" n="1">احتمل شتيمة صغيرة تمدح كثيرا </div> 
+      </div>
+      <div type="sentence" n="21"> 
+         <div type="p" n="1">احفظ نفسك ولا تفرح بسقطة غيرك </div> 
+      </div>
+      <div type="sentence" n="22"> 
+         <div type="p" n="1">الموهبة أن لا تحسد والزلل أن تكون حسودا </div> 
+      </div>
+      <div type="sentence" n="23"> 
+         <div type="p" n="1">اذبح نفسك لله أفضل من كل شىء </div> 
+      </div>
+      <div type="sentence" n="24"> 
+         <div type="p" n="1">من يحفظ هذا يخلص ناجيا </div> 
+      </div>
+   </body>
+   
+</TAN-T>

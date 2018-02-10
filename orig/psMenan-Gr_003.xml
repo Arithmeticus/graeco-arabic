@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI.2> 
+  <teiHeader type="text" status="new">
+    <fileDesc>
+      <titleStmt>
+        <title>Sententiae (corresponds to quotes from Gregory Nazianzen, Carmen morale XXX) (Greek)</title>
+        <author>pseudo-Menander</author>
+        <editor role="editor">Manfred Ullmann</editor>
+        <funder>Andrew W. Mellon Foundation</funder>
+      </titleStmt>
+      <sourceDesc default="NO">
+        <biblStruct default="NO">
+          <monogr>
+            <author>pseudo-Menander</author>
+            <title>Die arabische Überlieferung der sogenannten Menandersentenzen</title>
+            <editor role="editor">Manfred Ullmann</editor>
+            <imprint>
+              <pubPlace>Wiesbaden</pubPlace>
+              <publisher>Kommissionsverlag Franz Steiner</publisher>
+              <biblScope unit="pp" from="77" to="80">77-80</biblScope>
+              <date>1961</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>      
+      <editorialDecl default="NO">
+        <correction status="high" default="NO" method="silent">
+          <p>Data Entry</p>
+        </correction>
+      </editorialDecl>
+      <refsDecl n="text=1" doctype="TEI.2">
+        <state unit="text"/>
+        <state unit="sentence"/>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage default="NO">
+        <language id="greek">Greek</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+
+<text lang="greek" id=""><body>
+
+<pb n="77"/>
+
+<div1 type="sentence" n="1">
+<p>
+ἀρχὴν ἁπάντων καὶ τέλος ποιοῦ Θεόν.
+</p>
+</div1>
+<div1 type="sentence" n="2">
+<p>
+βίου τὸ κέρδος εὖ βιοῦν καθ᾿ ἡμέραν.
+</p>
+</div1>
+<div1 type="sentence" n="3">
+<p>
+γίνωσκε πάντα τῶν καλῶν τὰ δράματα.
+</p>
+</div1>
+<div1 type="sentence" n="4">
+<p>
+δεινὸν πένεσθαι, χεῖρον δ᾿ εὐπορεῖν κακῶς.
+</p>
+</div1>
+<div1 type="sentence" n="5">
+<p>
+εὐεργετῶν νόμιζε μιμεῖσθαι Θεόν.
+</p>
+</div1>
+<div1 type="sentence" n="6">
+<p>
+ζήτει θεοῦ σοι χρηστότητα χρηστὸς ὤν.
+</p>
+</div1>
+<div1 type="sentence" n="7">
+<p>
+ἡ σὰρξ κρατείσθω καὶ δαμαζέσθω καλῶς.
+</p>
+</div1>
+<div1 type="sentence" n="8">
+<p>
+θυμὸν χαλίνου, μὴ φρενῶν ἔξω πέσῃς.
+</p>
+</div1>
+
+<pb n="78"/>
+
+<div1 type="sentence" n="9">
+<p>
+ἵστη μὲν ὄμμα, γλῶσσα δὲ στάθμην ἔχοι.
+</p>
+</div1>
+<div1 type="sentence" n="10">
+<p>
+κλεὶς ὠσὶ κείσθω, μηδὲ πορνεύοι γέλως.
+</p>
+</div1>
+<div1 type="sentence" n="11">
+<p>
+λύχνος βίου σοι παντὸς ἡγείσθω λόγος.
+</p>
+</div1>
+<div1 type="sentence" n="12">
+<p>
+μή σοι τὸ εἶναι τῷ δοκεῖν ὑπορρέοι.
+</p>
+</div1>
+<div1 type="sentence" n="13">
+<p>
+νόει τὰ πάντα, πρᾶσσε δ᾿ ἃ πράσσειν θέμις.
+</p>
+</div1>
+<div1 type="sentence" n="14">
+<p>
+ξένον σεαυτὸν ἴσθι, καὶ τίμα ξένους.
+</p>
+</div1>
+<div1 type="sentence" n="15">
+<p>
+ὅτ᾿ εὐπλοεῖς, μάλιστα μέμνησο ζάλης.
+</p>
+</div1>
+
+<pb n="79"/>
+
+<div1 type="sentence" n="16">
+<p>
+πάντ᾿ εὐχαρίστως δεῖ δέχεσθαι τἀκ Θεοῦ.
+</p>
+</div1>
+<div1 type="sentence" n="17">
+<p>
+ῥάβδος δικαίου πλεῖον ἢ τιμὴ κακοῦ.
+</p>
+</div1>
+<div1 type="sentence" n="18">
+<p>
+σοφῶν θύρας ἔκτριβε, πλουσίων δὲ μή.
+</p>
+</div1>
+<div1 type="sentence" n="19">
+<p>
+τὸ μικρὸν οὐ μικρόν, ὅταν ἐκφέρῃ μέγα.
+</p>
+</div1>
+<div1 type="sentence" n="20">
+<p>
+ 
+</p>
+</div1>
+<div1 type="sentence" n="21">
+<p>
+φύλασσε σαυτόν, πτῶμα δ᾿ ἄλλου μὴ γέλα.
+</p>
+</div1>
+
+<pb n="80"/>
+
+<div1 type="sentence" n="22">
+<p>
+χάρις φθονεῖσθαι, τὸ φθονεῖν δ᾿ αἶσχος μέγα.
+</p>
+</div1>
+<div1 type="sentence" n="23">
+<p>
+ψυχὴ θύοιτο μᾶλλον ἢ τὸ πᾶν θεῷ.
+</p>
+</div1>
+<div1 type="sentence" n="24">
+<p>
+ὢ τίς φυλάξει ταῦτα καὶ σωθήσεται.
+</p></div1></body></text></TEI.2>

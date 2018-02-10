@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar002"
+     TAN-version="2018">
+   <teiHeader> 
+      <fileDesc> 
+         <titleStmt> 
+            <title>Sententiae (version Men ar II)</title> 
+            <author>pseudo-Menander</author> 
+            <editor>Manfred Ullmann</editor> 
+            <funder>Andrew W. Mellon Foundation</funder> 
+         </titleStmt> 
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc> 
+            <biblStruct> 
+               <monogr> 
+                  <author>pseudo-Menander</author> 
+                  <title>Die arabische Überlieferung der sogenannten Menandersentenzen</title> 
+                  <editor>Manfred Ullmann</editor> 
+                  <imprint> 
+                     <pubPlace>Wiesbaden</pubPlace> 
+                     <publisher>Kommissionsverlag Franz Steiner</publisher> 
+                     <biblScope unit="pp" from="64" to="73">64-73</biblScope> 
+                     <date>1961</date> 
+                  </imprint> 
+               </monogr> 
+            </biblStruct> 
+         </sourceDesc> 
+      </fileDesc> 
+      <!--<encodingDesc>
+      <editorialDecl default='NO'>
+        <correction status='high' default='NO' method='silent'>
+          <p>Data Entry</p>
+        </correction>
+      </editorialDecl>
+      <refsDecl n='text=1' doctype='TEI.2'>
+        <state unit='text' />
+        <state unit='sentence' />
+      </refsDecl>
+    </encodingDesc>--> 
+      <!--<profileDesc>
+      <langUsage default='NO'>
+        <language id='arabic'>Arabic</language>
+      </langUsage>
+    </profileDesc>--> 
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>Sententiae (version Men ar II) by pseudo-Menander in ara published 1961</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <definitions>
+         <work which="Sententiae"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+      </definitions>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Ar002</change>
+   </head>
+   <text>
+      <body xml:lang="ara"> 
+         <pb n="64"/> 
+         <div n="1" type="sentence"> 
+            <p>الفظ بخير نشيطا وتعلمه أيضا </p> 
+         </div> 
+         <div n="2" type="sentence"> 
+            <p>فضيلة الرجل من لفظه تعرف </p> 
+         </div> 
+         <div n="3" type="sentence"> 
+            <p>اختر فى الأول أن تحسن عبادتك لله </p> 
+         </div> 
+         <div n="4" type="sentence"> 
+            <p>غايته صالحة [sic] الرأى الخبيث لن تكن </p> 
+         </div> 
+         <div n="5" type="sentence"> 
+            <p>أكرم الوالدين واستحى من الشيوخ </p> 
+         </div> 
+         <div n="6" type="sentence"> 
+            <p>إن زينة المرأة مذهبها وليس ذهبها </p> 
+         </div> 
+         <div n="7" type="sentence"> 
+            <p>لا تتهاون بأحد من أجل فقره وعسره </p> 
+         </div> 
+         <div n="8" type="sentence"> 
+            <p>ما أشد بصر النساء بإصابة الحيل </p> 
+         </div> 
+         <div n="9" type="sentence"> 
+            <p>الموافق [sic] اسمع الأشياء كلها واختار </p> 
+         </div> 
+         <div n="10" type="sentence"> 
+            <p>عداوة غير مائتة لا تحفظ إذ كنت مائتا </p> 
+         </div> 
+         <pb n="65"/> 
+         <div n="11" type="sentence"> 
+            <p>دم أن تضبط لسانك... عظيما </p> 
+         </div> 
+         <div n="12" type="sentence"> 
+            <p>إن لطائف النساء ضحكة عند الأعفاء </p> 
+         </div> 
+         <div n="13" type="sentence"> 
+            <p>كن للأصدقاء والغرباء عادلا </p> 
+         </div> 
+         <div n="14" type="sentence"> 
+            <p>إن الفقر لشديد ولكن اليسر الردىء شر منه </p> 
+         </div> 
+         <div n="15" type="sentence"> 
+            <p>إن كنت يا فاضل ميتا فليكن فكرك أيضا ميتا </p> 
+         </div> 
+         <div n="16" type="sentence"> 
+            <p>إن للحق عينا هى تبصر كل شىء </p> 
+         </div> 
+         <div n="17" type="sentence"> 
+            <p>إن مذهب الإنسان يعرف من الفضة خاصة </p> 
+         </div> 
+         <div n="18" type="sentence"> 
+            <p>إن العيش الردىء الموت خير منه </p> 
+         </div> 
+         <div n="19" type="sentence"> 
+            <p>إنا نعيش بغير فكر إذا لم نبصر الموت </p> 
+         </div> 
+         <pb n="66"/> 
+         <div n="20" type="sentence"> 
+            <p>الخلق السىء يبعد من الله ومن الكافة </p> 
+         </div> 
+         <div n="21" type="sentence"> 
+            <p>أخلاق الكل فى الزمان الكبير تجرب </p> 
+         </div> 
+         <div n="22" type="sentence"> 
+            <p>تحفظ من الغضب فإن العقل بعيد منه </p> 
+         </div> 
+         <div n="23" type="sentence"> 
+            <p>ما أحسن للإنسان أن يضبط غيظه وشهوته </p> 
+         </div> 
+         <div n="24" type="sentence"> 
+            <p>سبيل مصائب أصدقائك أن تكون عندك كمصائبك </p> 
+         </div> 
+         <div n="25" type="sentence"> 
+            <p>كن مساويا لكل أحد وإن زدت عليهم فى الغنى </p> 
+         </div> 
+         <div n="26" type="sentence"> 
+            <p>ما أحسن للإنسان أن يفتقر فقرا جميلا ولا يستغنى غناء قبيحا </p> 
+         </div> 
+         <div n="27" type="sentence"> 
+            <p>الآن يميز الأصدقاء كم تميزالنار الذهب </p> 
+         </div> 
+         <pb n="67"/> 
+         <div n="28" type="sentence"> 
+            <p>إذا ما أحببت نفسك كثيرا فلن تقتنى صديقا </p> 
+         </div> 
+         <div n="29" type="sentence"> 
+            <p>إن الأدب مثل ميناء للناس أجمعين </p> 
+         </div> 
+         <div n="30" type="sentence"> 
+            <p>لا تجعل نفسك أبدا للذة عبدا </p> 
+         </div> 
+         <div n="31" type="sentence"> 
+            <p>اذكر إذا كنت غنيا أن تنفع الفقراء </p> 
+         </div> 
+         <div n="32" type="sentence"> 
+            <p>سبيل كل عفيف أن يتبع النواميس </p> 
+         </div> 
+         <div n="33" type="sentence"> 
+            <p>تصور أنك غنى إذا كثر أصدقاءك </p> 
+         </div> 
+         <div n="34" type="sentence"> 
+            <p>إن أنت كفيت الغرباء وصلت فى وقت إلى مثل ما تصنع </p> 
+         </div> 
+         <div n="35" type="sentence"> 
+            <p>وبخ نفسك كائنا من كنت إذا أتيت فاحشا </p> 
+         </div> 
+         <div n="36" type="sentence"> 
+            <p>ستعيش عيشا طيبا إن ملكت غيظك </p> 
+         </div> 
+         <div n="37" type="sentence"> 
+            <p>سبيلك أن تعيش وتقدر معيشتك بقدر مدتك </p> 
+         </div> 
+         <pb n="68"/> 
+         <div n="38" type="sentence"> 
+            <p>إما أن تقول خيرا وإلا فأمسك </p> 
+         </div> 
+         <div n="39" type="sentence"> 
+            <p>إن اللسان سبب لكثير من الشرور </p> 
+         </div> 
+         <div n="40" type="sentence"> 
+            <p>ألجم الغضب حتى لا تسقط خارج العقل </p> 
+         </div> 
+         <div n="41" type="sentence"> 
+            <p>إن المرأة أشد وحشة من الوحوش </p> 
+         </div> 
+         <div n="42" type="sentence"> 
+            <p>كن بالسوية حاكما لأصدقائك وغير أصدقائك </p> 
+         </div> 
+         <div n="43" type="sentence"> 
+            <p>إن الوقوع فى قبضة النساء مثل السقوط فى النار </p> 
+         </div> 
+         <div n="44" type="sentence"> 
+            <p>إن ثمر الأخلاق الجميلة ثمر جميل </p> 
+         </div> 
+         <div n="45" type="sentence"> 
+            <p>ذاك منك بغضب [sic] عاقب إذا ما حكمت ولكن لا يكون </p> 
+         </div> 
+         <div n="46" type="sentence"> 
+            <p>إن الصديق الصالح طبيب الأحزان </p> 
+         </div> 
+         <div n="47" type="sentence"> 
+            <p>لا تحكم وأنت تنظر إلى الحسن بل إلى المذهب </p> 
+         </div> 
+         <div n="48" type="sentence"> 
+            <p>لا تهرب من صديق إن سقط فى سوء </p> 
+         </div> 
+         <pb n="69"/> 
+         <div n="49" type="sentence"> 
+            <p>إن العقل رئيس على كل شىء من المنافع </p> 
+         </div> 
+         <div n="50" type="sentence"> 
+            <p>لقد يحسن الصمت بالأحداث أكثر من الكلام </p> 
+         </div> 
+         <div n="51" type="sentence"> 
+            <p>إذا رأيت غرباء فقربهم ولا تبعدهم </p> 
+         </div> 
+         <div n="52" type="sentence"> 
+            <p>عول أن أوصاف (؟) الفضيلة وصوفك </p> 
+         </div> 
+         <div n="53" type="sentence"> 
+            <p>تصور أن الذين هم غرباء من الفضيلة هم أيضا غرباء عندك </p> 
+         </div> 
+         <div n="54" type="sentence"> 
+            <p>ليس شىء من القنية خير من الصديق </p> 
+         </div> 
+         <div n="55" type="sentence"> 
+            <p>إن العمر له نقل غير معروفة </p> 
+         </div> 
+         <div n="56" type="sentence"> 
+            <p>إن الزمان يصير لجماعة معلما </p> 
+         </div> 
+         <div n="57" type="sentence"> 
+            <p>لا تؤثر أن تستقصى عن سيئات غيرك </p> 
+         </div> 
+         <pb n="70"/> 
+         <div n="58" type="sentence"> 
+            <p>خلص نفسك من كل طريقة غير صالحة </p> 
+         </div> 
+         <div n="59" type="sentence"> 
+            <p>إذا كنت دنسا فلن يكون لك صديق صالح </p> 
+         </div> 
+         <div n="60" type="sentence"> 
+            <p>احفظ نفسك حرا فى أخلاقك </p> 
+         </div> 
+         <div n="61" type="sentence"> 
+            <p>اقبل مشورة من رجل حكيم </p> 
+         </div> 
+         <div n="62" type="sentence"> 
+            <p>إن اعرف نفسك نافعة لكل أحد </p> 
+         </div> 
+         <div n="63" type="sentence"> 
+            <p>الأرباح القبيحة تصنع المصائب </p> 
+         </div> 
+         <div n="64" type="sentence"> 
+            <p>ألجم هواك وقد صرت حكيما كبيرا </p> 
+         </div> 
+         <div n="65" type="sentence"> 
+            <p>إن الرجل المداجى شبكة مستورة </p> 
+         </div> 
+         <div n="66" type="sentence"> 
+            <p>إن النظر الى الله دائما ضوء للعقل </p> 
+         </div> 
+         <div n="67" type="sentence"> 
+            <p>كن محبا للتعب وقد اقتنيت عمرا حسنا </p> 
+         </div> 
+         <div n="68" type="sentence"> 
+            <p>إن صديقا محتاجا إلى صديق ليس بصديق </p> 
+         </div> 
+         <pb n="71"/> 
+         <div n="69" type="sentence"> 
+            <p>إن المرأة السوء شتاء شديد على البيت </p> 
+         </div> 
+         <div n="70" type="sentence"> 
+            <p>إن الكلمة الطيبة دواء للنفس المريضة </p> 
+         </div> 
+         <div n="71" type="sentence"> 
+            <p>إن السيف يجرح الجسم والكلمة تجرح العقل </p> 
+         </div> 
+         <div n="72" type="sentence"> 
+            <p>ليس أحد مع الغيظ يستقيم له الرأى الرصين </p> 
+         </div> 
+         <div n="73" type="sentence"> 
+            <p>ليس يمكن شريرا أن يستتر عن الله </p> 
+         </div> 
+         <div n="74" type="sentence"> 
+            <p>صديقا [sic] رجلا شريرا لا تقتنى </p> 
+         </div> 
+         <div n="75" type="sentence"> 
+            <p>دم أن تنضر أكثر من المقاولة فى حكم </p> 
+         </div> 
+         <div n="76" type="sentence"> 
+            <p>عصا الصديق أفضل من كرامة الشرير </p> 
+         </div> 
+         <div n="77" type="sentence"> 
+            <p>إن الوعظ أسهل من الصبر على العارض </p> 
+         </div> 
+         <div n="78" type="sentence"> 
+            <p>إن الصمت أفضل من أن يتكلم الإنسان بما لا ينبغى </p> 
+         </div> 
+         <pb n="72"/> 
+         <div n="79" type="sentence"> 
+            <p>أذا جاورت الحكماء خرجت أنت أيضا حكيما </p> 
+         </div> 
+         <div n="80" type="sentence"> 
+            <p>إن العيش هذا هو أن لا يعيش الواحد لنفسه وحدها </p> 
+         </div> 
+         <div n="81" type="sentence"> 
+            <p>فى حسن العبادة التطوع والقنوت تكلم وتعلم </p> 
+         </div> 
+         <div n="82" type="sentence"> 
+            <p>لن يملك عاقل من قبل لذة </p> 
+         </div> 
+         <div n="83" type="sentence"> 
+            <p>ماء بحر طريقة المتصعبين </p> 
+         </div> 
+         <div n="84" type="sentence"> 
+            <p>احفظ نفسك من سقطة غيرك لا تضحك </p> 
+         </div> 
+         <div n="85" type="sentence"> 
+            <p>اهرب من لذة تؤول فيها بعد مضرة </p> 
+         </div> 
+         <div n="86" type="sentence"> 
+            <p>قد ينبغى أن يسر الأحرار من الآلام </p> 
+         </div> 
+         <div n="87" type="sentence"> 
+            <p>ما سبيل الإنسان أن يفرح بالأمور الفواحش </p> 
+         </div> 
+         <div n="88" type="sentence"> 
+            <p>إن عشق الأجسام حتف على النفوس </p> 
+         </div> 
+         <pb n="73"/> 
+         <div n="89" type="sentence"> 
+            <p>إن العقل لجام كبير للشره </p> 
+         </div> 
+         <div n="90" type="sentence"> 
+            <p>إن الذين رأستهم أجوافهم قد انتزعت منهم عقولهم </p> 
+         </div> 
+         <div n="91" type="sentence"> 
+            <p>إن الصغير لكبير إذا أعطى فى وقته </p> 
+         </div> 
+         <div n="92" type="sentence"> 
+            <p>يا شيخوخة إنك لشر سبيل الناس أن يهربوا منه </p>
+         </div>
+      </body>
+   </text>
+</TEI>

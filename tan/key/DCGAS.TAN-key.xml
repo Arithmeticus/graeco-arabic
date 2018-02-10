@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAN-key xmlns="tag:textalign.net,2015:ns" TAN-version="2018"
+    id="tag:kalvesmaki.com,2014:tan-key:dcgas">
+    <head>
+        <name>Persons, organizations associated with the Digital Corpus of Graeco-Arabic
+            Studies</name>
+        <license which="by_4.0"/>
+        <licensor who="kalvesmaki"/>
+        <definitions>
+            <algorithm xml:id="xslt1">
+                <IRI>tag:textalign.net,2015:stylesheet:convert-perseus-catalog-to-tan-key</IRI>
+                <name>Stylesheet to create a TAN file.</name>
+                <desc>Stylesheet at:
+                    ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+            </algorithm>
+            <person xml:id="kalvesmaki">
+                <IRI>http://viaf.org/viaf/299582703</IRI>
+                <IRI>tag:kalvesmaki.com,2014:self</IRI>
+                <IRI>tag:kalvesmaki@gmail.com,2014:self</IRI>
+                <name>Joel Kalvesmaki</name>
+            </person>
+            <role xml:id="creator" which="creator"/>
+            <role xml:id="stylesheet" which="stylesheet"/>
+        </definitions>
+        <resp who="xslt1" roles="stylesheet"/>
+        <resp roles="creator" who="kalvesmaki"/>
+        <change when="2018-01-29-05:00" who="kalvesmaki">Created new TAN-key file.</change>
+        <change who="xslt1" when="2018-01-31T16:21:02.485-05:00">Populated with metadata from DCGAS
+            files.</change>
+    </head>
+    <body>
+        <group affects-element="person">
+            <item>
+                <IRI>http://viaf.org/viaf/44561461</IRI>
+                <name>Schiefsky, Mark John</name>
+                <name>Mark J. Schiefsky</name>
+                <name>Schiefsky, Mark J.</name>
+                <name>Schiefsky, Mark J. (Mark John)</name>
+                <desc>Hippocrates on ancient medicine</desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/14933339</IRI>
+                <name>Gregory R. Crane</name>
+                <name>Crane, Gregory, 1957-....</name>
+                <name>Crane, Gregory</name>
+                <name>Gregory Crane</name>
+                <desc>The Blinded eye : Thucydides and the new written word </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/2792647</IRI>
+                <name>Uwe Vagelpohl</name>
+            </item>
+            
+            <item>
+                <IRI>http://viaf.org/viaf/7524651</IRI>
+                <name>Aristóteles</name>
+                <name>Aristotle</name>
+                <name>Aristote, 0384-0322 av. J.-C.</name>
+                <name>Aristóteles, 384-322 a.C.</name>
+                <name>Aristoteles v384-v322</name>
+                <name>Aristoteles, 384-322 v. Chr.</name>
+                <name>Aristoteles, 384-322 f.Kr.</name>
+                <name>Aristòtil, 384-322 aC</name>
+                <name>ارسطوطاليس</name>
+                <name>אריסטו, 384-322 לפנה"ס</name>
+                <name>Аристотель</name>
+                <name>Aristotelis, 384-322 p.m.ē.</name>
+                <name>Ἀριστοτέλης</name>
+                <name>Aristotelés, 384 př. Kr.-322 př. Kr.</name>
+                <name>Aristotelēs, 384-322B. C.</name>
+                <name>Arystoteles (384-322 p.n.e.)</name>
+                <name>Aristote</name>
+                <name>Aristoteles B.C. 384-B.C. 322</name>
+                <name>أرسطو، 384-322 ق.م.</name>
+                <name>Aristotle (Ancient Greek philosopher, scientist, ca. 384-322 BCE)</name>
+                <name>Aristoteles, 384-322 e.Kr.</name>
+                <name>أرسطوطاليس، 384-322 ق.م.</name>
+                <name>Aristotle 0-0</name>
+                <name>Aristotle 384-322 B.C.</name>
+                <name>Aristotele, 384-322 a.C.</name>
+                <name>Аристотель, 384-322 e.Kr.</name>
+                <desc>De anima Analytiques Dialéctica Analytica posteriora 2,1-10 Éthique à Eudème
+                    Petits traités d'histoire naturelle </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/61541234</IRI>
+                <name>Badawī, ʿAbd al-Raḥmān, 1917-2002</name>
+                <name>Badawī, ʻAbd al-Rahmān</name>
+                <name>بدوي، عبد الرحمن، 1917-2002</name>
+                <name>Badawī, ʿAbd-ar-Raḥmān 1917-2002</name>
+                <name>عبد الرحمن بدوي</name>
+                <name>Badawi, 'Abdurrahmân.</name>
+                <desc>Aflūṭīn ʿinda al-ʿArab Averroès (ibn Rushd) ... Commentaires sur Aristote
+                    perdus en grec et autres épitres; Ad-Dīwān as̆-s̆arqi li-'lmu'allif al-garbī
+                </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/81982908</IRI>
+                <name>David S. Margoliouth</name>
+                <name>Margoliouth, D.S. (David Samuel), 1858-1940</name>
+                <name>Margoliouth, David Samuel, 1858-1940</name>
+                <name>Margoliouth, D. S. 1858-1940</name>
+                <name>مرغوليوث، داڤد ساموئيل</name>
+                <name>مرجليوث، د. س.، 1858-1940</name>
+                <name>Margoliouth, D. S. 1858-1940 (David Samuel)</name>
+                <name>David Samuel Margoliouth British orientalist</name>
+                <name>Margoliouth, Davis Samuel</name>
+                <desc>Analecta orientalia ad poeticam Aristoteleam; Abu Bishr Matta and Abu Said
+                    Al-Sirafi on the merits of logic and grammar A commentary on the book of Daniel
+                    Carmina Muhammadis Ubailallahi F, : ex codicibus bodleianis edita et vocalibus i
+                    ... Gandell, Robert (DNB00) Cairo, Jerusalem and Damascus </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/2586347</IRI>
+                <name>Šukrī Muḥammad ʿAyyād</name>
+                <name>ʿAyyad, Shukrī Muḥammad</name>
+                <name>عياد، شكري محمد، 1921-1999</name>
+                <name>ʿAyyād, Šukrī Muḥammad, 1921-1999</name>
+                <name>ʿAyyād, Šukrī 1921-....</name>
+                <name>ʻAyyād, Šukrī Muḥammad</name>
+                <name>عياد، شكرى محمد، 1921-</name>
+                <name>ʿAiyād, Šukrī Muḥammad 1921-</name>
+                <name>ʿAyyād, Shukrī Muḥammad, 1921-1999</name>
+                <name>شكري محمد عياد</name>
+                <desc>Adab al-ʿarabī taʿbīruhu ʿan al-waḥdaẗ wa al-tanawwūʿ buḥūṯ tamhīdiyyat ...
+                    Home and the world. Aṭfāl bilā dumūʿ al-Baṭal fī al-ʾadab wa-al-ʾasāṭīr
+                    Reflections and deflections : a study of the contemporary Arab mind through its
+                    ... Baina 'l-falsafa wa-'n-naqd. - [1990] الرسول في القرآن </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/37033198</IRI>
+                <name>Julius Theodor Zenker</name>
+                <name>Zenker, Julius Theodor, 1811-1884</name>
+                <name>Zenker, Julius Theodor</name>
+                <name>Zenker, J.Th. (Julius Theodor), 1811-1884</name>
+                <name>Julius Theodor Zenker deutscher Orientalist, Übersetzer und Privatgelehrter
+                   </name>
+                <desc>Allgemeine grammatik der türkisch-tatarischen sprache </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/222002621</IRI>
+                <name>Khalil Georr</name>
+                <name>Jurr, Khalil al-</name>
+                <name>Jurr, Khalīl, 1913-1987</name>
+                <name>Jurr, Khalīl</name>
+                <name>الجر، خليل</name>
+                <name>جر، خليل، 1913-1987</name>
+                <desc>homme et sa destinée Les catégories d'Aristote dans leurs versions syro-arabes
+                    : étude historique et ... Biologie humaine. الفكر الفلسفي في مائة سنة </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/34827362</IRI>
+                <name>Jaroslaus Tkatsch</name>
+                <name>Tkatsch, Jaroslaus, 1871-1927</name>
+                <name>Jaroslav Tkáč österreichischer klassischer Philologe und Arabist</name>
+                <name>Tkatsch, Jaroslaus</name>
+                <desc>arabische Übersetzung der Poetik des Aristoteles und die Grundlage der Kritik
+                    d ... RE:Sabatha 1 </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/30057804</IRI>
+                <name>Isidor Pollak</name>
+                <name>Pollak, Isidor, 1874-1922</name>
+                <name>Pollak, Isidor, oriëntalist</name>
+                <name>Pollak, Isidor</name>
+                <desc>Der alte Prager Judenfriedhof. </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/44387193</IRI>
+                <name>Immanuel Bekker</name>
+                <name>Bekker, Immanuel, 1785-1871.</name>
+                <name>Bekker, I. (Immanuel), 1785-1871</name>
+                <name>Bekker, Immanuel</name>
+                <name>Immanuel Bekker deutscher Altphilologe</name>
+                <name>Bekker, Emmanuel</name>
+                <name>Bekker, August Immanuel</name>
+                <name>Bekker, August Emanuel, 1785-1871</name>
+                <desc>Anecdota Graeca. L'état ou La république de Platon Photii, Constantinopolitani
+                    Patriarchae, opera omnia in classes quinque distribu ... </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/2581859</IRI>
+                <name>pseudo-Aristotle</name>
+                <name>Aristote, 0099-0001 av. J.-C., auteur prétendu</name>
+                <name>Pseudo-Aristóteles</name>
+                <name>Aristote auteur prétendu 0099-0001 av. J.-C.</name>
+                <name>Aristotle, pseud.</name>
+                <desc>Aristotelis Categoriae Et Topica Cum Porphyrii Isagoge Aristotelis De Natura,
+                    aut de rerum Principiis, Libri VIII. Ioachimo Perionio in ... De animae
+                    immortalitate Liber de pomo Buch vom Apfel </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/29561534</IRI>
+                <name>Helmut Gätje</name>
+                <name>Gätje, Helmut, 1927-1986</name>
+                <name>Gätje, Helmut, 1927-</name>
+                <name>Gätje, Helmut</name>
+                <desc>Die arabische Übersetzung der Schrift des Alexander von Aphrodisias über die F
+                    ... </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/22449156</IRI>
+                <name>Gustav Flügel</name>
+                <name>Flügel, Gustav, 1802-1870</name>
+                <name>Gustav Leberecht Flügel</name>
+                <name>Flügel, Gustav Leberecht (1802-1870).</name>
+                <name>Flügel, Gustav (Gustav Leberecht), 1802-1870</name>
+                <name>فليغل، غوستاف</name>
+                <name>Flügel, Gustav Lebrecht 1802-1870</name>
+                <name>فلوغل، غوستاف، 1802-1870</name>
+                <desc>arabischen, persischen und türkischen Handschriften der Kaiserlich-Königlichen
+                    ... Book of definitions Kashf al-ẓunūn ʻan asāmī al-kutub wa-al-funūn = Lexicon
+                    bibliographicum et ... </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/100195866</IRI>
+                <name>Ibn al-Nadīm</name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Isḥāq active 987</name>
+                <name>Ibn-an-Nadīm, Muḥammad Ibn-Isḥāq 935-990</name>
+                <name>Ibn al-Nadīm, Muḥammad b. Isḥāq (Abū al-Faraǧ Muḥammad b. Isḥāq), ca930 ...
+                   </name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Isḥāq</name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Ishāq, ....-0987?</name>
+                <name>ابن النديم، محمد بن اسحاق، كان حيا 987</name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Isḥāq 09..?-0987?</name>
+                <name>Nadim, Mohammad ben Eshāq ben ( -ca 990).</name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Isḥāq, 900-talet</name>
+                <name>ابن النديم، محمد بن إسحاق، ت. 438 هـ.</name>
+                <name>ابن النديم</name>
+                <name>Ibn al-Nadīm, Muḥammad ibn Isḥāq, m. 995</name>
+                <name>ابن النديم, محمد بن اسحاق</name>
+                <desc>Fihrist Al-fihrast / Muṣtafā Aš-Šuwaymī Al-Aʿlām </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/286235404</IRI>
+                <name>pseudo-Menander</name>
+                <name>Menander, Pseudo-‎</name>
+                <desc>De pseudepigrafen </desc>
+            </item>
+            <item>
+                <IRI>http://viaf.org/viaf/19801004</IRI>
+                <name>Manfred Ullmann</name>
+                <name>Ullmann, Manfred, 1931-....</name>
+                <name>Ullmann, Manfred</name>
+                <name>Ullmann, M.</name>
+                <name>Manfred Ullmann deutscher Arabist</name>
+                <name>أولمان، مانفريد</name>
+                <desc>Adminiculum zur Grammatik des klassischen Arabisch الطب الاسلامى </desc>
+            </item>
+        </group>
+        <group affects-element="organization">
+            <item>
+                <IRI>http://dbpedia.org/resource/Andrew_W._Mellon_Foundation</IRI>
+                <name>Andrew W. Mellon Foundation</name>
+                <desc>The Andrew W. Mellon Foundation of New York City in the United States, is a private foundation with five core areas of interest, endowed with wealth accumulated</desc>
+            </item>
+        </group>
+        <group affects-element="work">
+            <item>
+                <IRI>http://dbpedia.org/resource/De_Interpretatione</IRI>
+                <name>Aristotle, De Interpretatione</name>
+                <name>De Interpretatione</name>
+                <desc>De Interpretatione or On Interpretation (Greek: Περὶ Ἑρμηνείας, Peri Hermeneias) is the second text from Aristotle's Organon and is among the earliest</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Posterior_Analytics</IRI>
+                <name>Aristotle, Analytica posteriora</name>
+                <name>Analytica posteriora</name>
+                <name>Posterior Analytics</name>
+                <desc>Posterior Analytics (Greek: Ἀναλυτικὰ Ὕστερα; Latin: Analytica Posteriora) is a text from Aristotle's Organon that deals with demonstration, definition</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Prior_Analytics</IRI>
+                <name>Aristotle, Analytica priora</name>
+                <name>Analytica priora</name>
+                <name>Prior Analytics</name>
+                <desc>The Prior Analytics (Greek: Ἀναλυτικὰ Πρότερα; Latin: Analytica Priora) is Aristotle's work on deductive reasoning, which is known as his syllogistic.</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Poetics_(Aristotle)</IRI>
+                <name>Aristotle, Poetica</name>
+                <name>Poetica</name>
+                <name>Poetics (Aristotle)</name>
+                <name>Aristotle, Ars Poetica</name>
+                <name>Ars poetica</name>
+                <name>Aristotle, Poetica (modern translation)</name>
+                <name>Aristotle, Poetica (translation of Abū Bišr Mattā)</name>
+                <desc>Aristotle's Poetics (Greek: Περὶ ποιητικῆς, Latin: De Poetica; c. 335 BCE) is the earliest surviving work of dramatic theory and first extant philosophical</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Categories_(Aristotle)</IRI>
+                <name>Aristotle, Categoriae</name>
+                <name>Categoriae</name>
+                <name>Categories (Aristotle)</name>
+                <desc>The Categories (Greek Κατηγορίαι Katēgoriai; Latin Categoriae) is a text from Aristotle's Organon that enumerates all the possible kinds of things that</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_the_Soul</IRI>
+                <name>Aristotle, De anima</name>
+                <name>De anima</name>
+                <name>On the Soul</name>
+                <desc>On the Soul (Greek Περὶ Ψυχῆς, Peri Psuchēs; Latin De Anima) is a major treatise written by Aristotle c.350 B.C.. Although its topic is the soul, it is</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/History_of_Animals</IRI>
+                <name>Aristotle, Historia animalium</name>
+                <name>Historia animalium</name>
+                <name>History of Animals</name>
+                <desc>Animals"; Latin: Historia Animālium "History of Animals") is one of the major texts on biology by the ancient Greek philosopher Aristotle, who had studied</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Sophistical_Refutations</IRI>
+                <name>Aristotle, De sophisticis elenchis</name>
+                <name>De sophisticis elenchis</name>
+                <name>Sophistical Refutations</name>
+                <name>Aristotle, De sophisticis elenchis (tr. Yaḥyā ibn ʿAdī)</name>
+                <name>Aristotle, De sophisticis elenchis (tr. Ibn Zurʿah)</name>
+                <name>Aristotle, De sophisticis elenchis ("Old Translation")</name>
+                <name>Aristotle, De sophisticis elenchis (so-called Other Translation, only ch. 1)</name>
+                <desc>Ἔλεγχοι; Latin: De Sophisticis Elenchis) is a text in Aristotle's Organon in which he identified thirteen fallacies. According to Aristotle, this is the</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Topics_(Aristotle)</IRI>
+                <name>Aristotle, Topica</name>
+                <name>Topica</name>
+                <name>Topics (Aristotle)</name>
+                <desc>Latin: Topica) is the name given to one of Aristotle's six works on logic collectively known as the Organon: The Topics constitutes Aristotle's treatise</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Meteorology_(Aristotle)</IRI>
+                <name>Meteorologica</name>
+                <name>Meteorology (Aristotle)</name>
+                <name>Meteorology</name>
+                <name>Aristotle, Meteorologica</name>
+                <desc>(Greek: Μετεωρολογικά; Latin: Meteorologica or Meteora) is a treatise by Aristotle. The text discusses what Aristotle believed to have been all the affections</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Sense_and_Sensibilia_(Aristotle)</IRI>
+                <name>Aristotle, De sensu et sensibilibus</name>
+                <name>De sensu et sensibilibus</name>
+                <name>Sense and Sensibilia (Aristotle)</name>
+                <desc>καὶ αἰσθητῶν, Latin: De sensu et sensibilibus, De sensu et sensili, De sensu et sensato) is one of the short treatises by Aristotle that make up the Parva</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Memory</IRI>
+                <name>Aristotle, De memoria et reminiscentia</name>
+                <name>De memoria et reminiscentia</name>
+                <name>On Memory</name>
+                <desc>Περὶ μνήμης καὶ ἀναμνήσεως, Latin: De memoria et reminiscentia) is one of the short treatises that make up Aristotle's Parva Naturalia. It is frequently</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Sleep</IRI>
+                <name>Aristotle, De somno et vigilia</name>
+                <name>De somno et vigilia</name>
+                <name>On Sleep  (category Works by Aristotle)</name>
+                <desc>Sleeplessness; Greek Περὶ ὕπνου καὶ ἐγρηγόρσεως; Latin: De somno et vigilia) is a text by Aristotle, one of the Parva Naturalia.   Works related to On Sleep</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Dreams</IRI>
+                <name>Aristotle, De insomniis</name>
+                <name>De insomniis</name>
+                <name>On Dreams</name>
+                <desc>Dreams (Ancient Greek: Περὶ ἐνυπνίων, Latin: De insomniis) is one of the short treatises that make up Aristotle's Parva Naturalia.   Works related to On Dreams</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Divination_in_Sleep</IRI>
+                <name>Aristotle, De divinatione per somnum</name>
+                <name>De divinatione per somnum</name>
+                <name>On Divination in Sleep</name>
+                <desc>Dreams; Greek: Περὶ τῆς καθ᾽ ὕπνον μαντικῆς; Latin: De divinatione per somnum) is a text by Aristotle in which he discusses precognitive dreams. The treatise</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Length_and_Shortness_of_Life</IRI>
+                <name>Aristotle, De longitudine et brevitate vitae</name>
+                <name>De longitudine et brevitate vitae</name>
+                <name>On Length and Shortness of Life</name>
+                <desc>μακροβιότητος καὶ βραχυβιότητος, Latin: De longitudine et brevitate vitae) is a text by the Ancient Greek philosopher Aristotle and one of the Parva Naturalia</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_Youth,_Old_Age,_Life_and_Death,_and_Respiration</IRI>
+                <name>Aristotle, De iuventute et senectute, De vita et morte</name>
+                <name>De iuventute et senectute, De vita et morte</name>
+                <name>Aristotle, De iuventute et senectute</name>
+                <name>Aristotle, De vita et morte</name>
+                <name>Aristotle, De respiratione</name>
+                <name>De respiratione</name>
+                <name>Aristotle, De Juventute et Senectute</name>
+                <name>On Youth, Old Age, Life and Death, and Respiration</name>
+                <desc>ἀναπνοῆς, Latin: De Juventute et Senectute, De Vita et Morte, De Respiratione) is one of the short treatises that make up Aristotle's Parva Naturalia</desc>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/Liber_de_Causis</IRI>
+                <name>pseudo-Aristotle, Liber de causis</name>
+                <name>Liber de Causis</name>
+                <desc>reine Gute bekannt unter dem Namen Liber de Causis: Arabic text, German translation Andreas Schönfeld, Liber de causis: Das Buch von den Ursachen, repr</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:work:pseudo-aristotle:de-somniis</IRI>
+                <name>pseudo-Aristotle, De somniis</name>
+                <name>De somniis</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:work:pseudo-aristotle:testamentum-aristotelis</IRI>
+                <name>pseudo-Aristotle, Testamentum Aristotelis</name>
+                <name>Testamentum Aristotelis</name>
+            </item>
+            <item>
+                <IRI>http://dbpedia.org/resource/On_the_Universe</IRI>
+                <name>pseudo-Aristotle, De mundo</name>
+                <name>De mundo</name>
+                <name>On the Universe</name>
+                <desc>De mundo (Greek: Περὶ Κόσμου), known in English as On the Universe, is the work of an unknown author which was ascribed to Aristotle. Because of this,</desc>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:work:pseudo-aristotle:de-spiritu</IRI>
+                <name>pseudo-Aristotle, De spiritu</name>
+                <name>De spiritu</name>
+            </item>
+            <item>
+                <IRI>tag:kalvesmaki.com,2014:work:pseudo-menander:sententiae</IRI>
+                <name>pseudo-Menander, Sententiae (version Men ar I)</name>
+                <name>Sententiae (version Men ar I)</name>
+                <name>Sententiae</name>
+                <name>pseudo-Menander, Sententiae (version Men ar II)</name>
+                <name>pseudo-Menander, Sententiae (quoted in Gregory Nazianzen, Carmen morale XXX)</name>
+            </item>
+        </group>
+        <group affects-element="source scriptum">
+            <item>
+                <IRI>http://lccn.loc.gov/ne66000468</IRI>
+                <name>Aristotle Manṭiq 1948</name>
+                <name>Aristotle Manṭiq Arisṭū 1948 ʿAbd al-Raḥmān Badawī</name>
+                <name>Manṭiq Arisṭū</name>
+                <name>Aristotle Manṭiq 1949</name>
+                <name>Aristotle Manṭiq Arisṭū 1949 ʿAbd al-Raḥmān Badawī</name>
+                <name>Aristotle Manṭiq Arisṭū 1949-1952 ʿAbd al-Raḥmān Badawī</name>
+                <name>Aristotle Manṭiq 1952</name>
+                <name>Aristotle Manṭiq Arisṭū 1952 ʿAbd al-Raḥmān Badawī</name>
+                <desc>Romanized. Aristotle Logic</desc>
+                <desc>Published 1948-53</desc>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/2007476883</IRI>
+                <IRI>urn:isbn:3487111322</IRI>
+                <IRI>urn:isbn:9783487111322</IRI>
+                <name>Aristoteleam Margoliouth 1887</name>
+                <name>Aristotle Analecta Orientalia ad Poeticam Aristoteleam 1887 David S. Margoliouth</name>
+                <name>Analecta orientalia ad poeticam aristoteleam</name>
+                <desc>David Samuel Margoliouth. Includes bibliographical references. Latin, Arabic, and Syriac. Aristotle Poetics Aesthetics, Ancient</desc>
+            </item>
+            <item>
+                <!--IRI needs to be found-->
+                <IRI>http://lccn.loc.gov/ne68004639</IRI>
+                <name>Arisṭūṭālīs Aristotle 1967</name>
+                <name>Aristotle Kitāb Arisṭūṭālīs fī l-šiʿr, naql Abī Bišr Mattā ibn Yūnus al-Qunnāʾī min al-suryānī ilā l-ʿarabī 1967 Šukrī Muḥammad ʿAyyād</name>
+                <name>Kitāb Arisṭūṭālīs fī al-shiʻr</name>
+                <desc>naql Abī Bishr Mattá ibn Yūnus al-Qunnāʼī min al-Suryānī ilá al-ʻArabī. Ḥaqqaqahu maʻa tarjamah ḥadīthah wa-dirāsah li-taʼthīrihi fī al-balāghah al-ʻArabīyah Shukrī Muḥammad ʻAyyād. Translation of the Poetica. The editor's thesis--University of Cairo. Includes bibliographical references.</desc>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/493148212</IRI>
+                <name>Aristotelis lectionibus 1846</name>
+                <name>Aristotle Aristotelis Categoriae Graece cum versione Arabica Isaaci Honeini filii et variis lectionibus textus Graeci e versione Arabica ductis 1846 Julius Theodor Zenker</name>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/17808937</IRI>
+                <name>Arisṭūṭālīs 1954</name>
+                <name>Aristotle Arisṭūṭālīs fi l-nafs. al-Ārāʾ al-ṭabīʿīyah al-mansūb ilā Flūṭarḫas. al-Ḥāss wa-l-maḥsūs li-Ibn Rušd. al-Nabāt al-mansūb ilā Arisṭūṭālīs 1954 ʿAbd al-Raḥmān Badawī</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/78962614</IRI>
+                <name>Arisṭūṭālīs Aristotle 1977</name>
+                <name>Aristotle Arisṭūṭālīs: ṭibaʿ al-ḥayawān 1977 ʿAbd al-Raḥmān Badawī</name>
+                <name>Ṭibāʻ al-ḥayawān</name>
+                <name>Historia animalium. Arabic</name>
+                <desc>Arisṭūṭālīs ; tarjamat Yūḥannā ibn al-Biṭrīq ; ḥaqqaqahu wa-sharaḥahu wa-qaddama lahu ʻAbd al-Raḥmān Badawī. In Arabic. Includes bibliographical references. Zoology Pre-Linnean works</desc>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/49051769</IRI>
+                <name>Catégories Aristotle 1948</name>
+                <name>Aristotle Les Catégories d'Aristote dans leurs versions syro-arabes 1948 Khalil Georr</name>
+                <name>Les Catégories d'Aristote dans leurs versions syro-arabes édition de textes précédée d'une étude historique et critique et suivie d'un vocabulaire technique</name>
+                <name>Catégories d'Aristote dans leurs versions syro-arabes</name>
+                <desc>[Édité par] Khalil Georr. Préf. de L. Massignon. Includes bibliographical references.</desc>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/603098943</IRI>
+                <name>Arisṭūṭālīs Aristotle 1953</name>
+                <name>Aristotle Arisṭūṭālīs: Fann al-šiʿr, maʿa l-tarǧamah al-ʿarabīyah al-qadīmah wa-šurūḥ al-Fārābī wa-Ibn Sīnā wa-Ibn Rušd 1953 ʿAbd al-Raḥmān Badawī</name>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/463140278</IRI>
+                <name>griechischen Übersetzung 1928</name>
+                <name>Aristotle Die arabische Übersetzung der Poetik des Aristoteles und die Grundlage der Kritik des griechischen Textes 1928 Jaroslaus Tkatsch</name>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/2751279</IRI>
+                <name>Abhandlungen Morgenlandes 1913</name>
+                <name>Aristotle Die Hermeneutik des Aristoteles in der arabischen Übersetzung des Isḥaḳ ibn Ḥonain Abhandlungen für die Kunde des Morgenlandes 1913 Isidor Pollak</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/02016397</IRI>
+                <name>Aristotelis Aristotle 1837</name>
+                <name>Aristotle Aristotelis Opera 1837 Immanuel Bekker</name>
+                <name>Aristotelis Opera</name>
+                <desc>t. I. Organon.--t. II. Naturalis auscultationis libri VIII. De cœlo libri IV. De generatione et corruptione libri II.--t. III. Meteorologica. De mundo. De anima. De sensu et sensili. De memoria. De somno. De insomniis. De divinat. per somn. De longitudine vitæ. De juventute etc. De respiratione. De spiritu.--t. IV. Historia animalium.--t. V. De partibus animalium libri IV. De motu animalium. De incessu animalium. De generatione animalium libri V.--t. VI. De coloribus. De audibilibus. Physiognomonica. De plantis. De mirabilibus auscultationibus. Mechanica. De lineis insecabilibus. Ventorum situs et nomina. De Xenophane Zenone et Gorgia.--t. VII. Problemata.--t. VIII. Metaphysica.--t. IX. Ethica Nicomachea. Ethica magna. Ethica Eudemia. De virtutibus et vitiis.--t. X. De republica libri VIII et Œconomica ... accedunt Rerumpublicarum reliquiæ ex editione C.F. Neumann.--t. XI. De rhetorica libri III. De rhetorica ad Alexandrum. De poetica. ex recensione Immanuelis Bekkeri. Accedunt indices Sylburgiani. Each volume has also special t.-p. Text in Greek.</desc>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/122741067</IRI>
+                <name>Aflāṭūnīyah Aristotle 1955</name>
+                <name>pseudo-Aristotle al-Aflāṭūnīyah al-muḥdaṯah ʿind al-ʿarab 1955 ʿAbd al-Raḥmān Badawī</name>
+            </item>
+            <item>
+                <IRI>http://lccn.loc.gov/72353814</IRI>
+                <IRI>urn:isbn:3533021556</IRI>
+                <name>aristotelischen Überlieferung 1971</name>
+                <name>pseudo-Aristotle Studien zur Überlieferung der aristotelischen Psychologie im Islam 1971 Helmut Gätje</name>
+                <name>Studien zur Überlieferung der aristotelischen Psychologie im Islam</name>
+                <desc>Bibliography: p. [9]-12. Aristotle Influence Psychology Islamic philosophy Greek influences</desc>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/977493859</IRI>
+                <IRI>http://lccn.loc.gov/ne67001198</IRI>
+                <name>Fihrist Gustav 1871</name>
+                <name>Ibn al-Nadīm Kitâb al-Fihrist 1871-1872 Gustav Flügel</name>
+                <name>al- Fihrist</name>
+                <name>Fihrist</name>
+                <desc>li-Ibn al-Nadīm. Added t. p.: Kitâb al-Fihrist, mit Anmerkungen, hrsg. von Gustav Flügel. Photo-offset of the ed. published in Leipzig in 2 v., 1871-72. Arabic literature Bibliography</desc>
+            </item>
+            <item>
+                <IRI>http://www.worldcat.org/oclc/32707582</IRI>
+                <name>Menandersentenzen Überlieferung 1961</name>
+                <name>pseudo-Menander Die arabische Überlieferung der sogenannten Menandersentenzen 1961 Manfred Ullmann</name>
+            </item>
+        </group>
+    </body>
+</TAN-key>

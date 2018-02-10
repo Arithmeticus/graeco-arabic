@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021.ref-scriptum-native-by-page">
+   
+   <head>
+      <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Aristotle Manṭiq 1952"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021</IRI>
+         <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952</name>
+         <location href="Arist-Ar_021.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021.ref-logical-native</IRI>
+         <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952 as TAN-T following original leaf divs and converting nesting elements to &lt;div&gt;s</name>
+         <location href="Arist-Ar_021.tan-t.ref-logical-native.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="De sophisticis elenchis"/>
+         <div-type xml:id="page" which="page"/>
+         <div-type xml:id="chapter" which="chapter"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at Arist-Ar_021</change>
+      <change who="xslt1" when="2018-02-07T00:39:34.19-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara"> 
+         <div type="page" n="737">بسم الله الرحمن الرحيم «سوفسطيقا» بنقل الفاضل أبى زكريا يحيى بن عدى — أعلى الله منزلته — ، وبنقل أبى على عيسى بن اسحق بن زرعة، وبنقل قديم منسوب إلى الناعمى، مثبت فى كل صفح ما نقله كل واحد، وغيره، عن المعانى الثابتة فى ذلك الصفح </div>
+      <!--<div type='page' n='738' />-->
+      <!--<div type='page' n='739' />-->
+      <!--<div type='page' n='740' />-->
+      <!--<div type='page' n='741' />-->
+      <div type="page" n="742">كتاب أرسطوطالس على «مباكتة السوفسطائيين» ترجمة أخرى: إنا قائلون على المباكتات السوفسطائية التى ترى أنها مباكتات، وإنما هى مضلات وليس بمباكتات؛ ومبتدئون كالطبيعة من المقدمات الأولى. ومن المعروف أن من القياسات ما هو موجود، ومنها ما ليس بموجود، لكن يظن أنه صحيح. وكما أنه قد يكون فى سائر الأشياء الاشتباه، وأن يلحق الظن فيها من قبل الاشتباه، كذلك يكون فى الكلام أيضا. وقياس ذلك أن من ذوى النيات من له النية الحسنة، ومنهم من يتراءى بحسن النية ويفخر بها ويموه بإظهار التصاون. </div>
+      <!--<div type='page' n='743' />-->
+      <!--<div type='page' n='744' />-->
+      <!--<div type='page' n='745' />-->
+      <!--<div type='page' n='746' />-->
+      <!--<div type='page' n='747' />-->
+      <!--<div type='page' n='748' />-->
+      <!--<div type='page' n='749' />-->
+      <!--<div type='page' n='750' />-->
+      <!--<div type='page' n='751' />-->
+      <!--<div type='page' n='752' />-->
+      <!--<div type='page' n='753' />-->
+      <!--<div type='page' n='754' />-->
+      <!--<div type='page' n='755' />-->
+      <!--<div type='page' n='756' />-->
+      <!--<div type='page' n='757' />-->
+      <!--<div type='page' n='758' />-->
+      <!--<div type='page' n='759' />-->
+      <!--<div type='page' n='760' />-->
+      <!--<div type='page' n='761' />-->
+      <!--<div type='page' n='762' />-->
+      <!--<div type='page' n='763' />-->
+      <!--<div type='page' n='764' />-->
+      <!--<div type='page' n='765' />-->
+      <!--<div type='page' n='766' />-->
+      <!--<div type='page' n='767' />-->
+      <!--<div type='page' n='768' />-->
+      <!--<div type='page' n='769' />-->
+      <!--<div type='page' n='770' />-->
+      <!--<div type='page' n='771' />-->
+      <!--<div type='page' n='772' />-->
+      <!--<div type='page' n='773' />-->
+      <!--<div type='page' n='774' />-->
+      <!--<div type='page' n='775' />-->
+      <!--<div type='page' n='776' />-->
+      <!--<div type='page' n='777' />-->
+      <!--<div type='page' n='778' />-->
+      <!--<div type='page' n='779' />-->
+      <!--<div type='page' n='780' />-->
+      <!--<div type='page' n='781' />-->
+      <!--<div type='page' n='782' />-->
+      <!--<div type='page' n='783' />-->
+      <!--<div type='page' n='784' />-->
+      <!--<div type='page' n='785' />-->
+      <!--<div type='page' n='786' />-->
+      <!--<div type='page' n='787' />-->
+      <!--<div type='page' n='788' />-->
+      <!--<div type='page' n='789' />-->
+      <!--<div type='page' n='790' />-->
+      <!--<div type='page' n='791' />-->
+      <!--<div type='page' n='792' />-->
+      <!--<div type='page' n='793' />-->
+      <!--<div type='page' n='794' />-->
+      <!--<div type='page' n='795' />-->
+      <!--<div type='page' n='796' />-->
+      <!--<div type='page' n='797' />-->
+      <!--<div type='page' n='798' />-->
+      <!--<div type='page' n='799' />-->
+      <!--<div type='page' n='800' />-->
+      <!--<div type='page' n='801' />-->
+      <!--<div type='page' n='802' />-->
+      <!--<div type='page' n='803' />-->
+      <!--<div type='page' n='804' />-->
+      <!--<div type='page' n='805' />-->
+      <!--<div type='page' n='806' />-->
+      <!--<div type='page' n='807' />-->
+      <!--<div type='page' n='808' />-->
+      <!--<div type='page' n='809' />-->
+      <!--<div type='page' n='810' />-->
+      <!--<div type='page' n='811' />-->
+      <!--<div type='page' n='812' />-->
+      <!--<div type='page' n='813' />-->
+      <!--<div type='page' n='814' />-->
+      <!--<div type='page' n='815' />-->
+      <!--<div type='page' n='816' />-->
+      <!--<div type='page' n='817' />-->
+      <!--<div type='page' n='818' />-->
+      <!--<div type='page' n='819' />-->
+      <!--<div type='page' n='820' />-->
+      <!--<div type='page' n='821' />-->
+      <!--<div type='page' n='822' />-->
+      <!--<div type='page' n='823' />-->
+      <!--<div type='page' n='824' />-->
+      <!--<div type='page' n='825' />-->
+      <!--<div type='page' n='826' />-->
+      <!--<div type='page' n='827' />-->
+      <!--<div type='page' n='828' />-->
+      <!--<div type='page' n='829' />-->
+      <!--<div type='page' n='830' />-->
+      <!--<div type='page' n='831' />-->
+      <!--<div type='page' n='832' />-->
+      <!--<div type='page' n='833' />-->
+      <!--<div type='page' n='834' />-->
+      <!--<div type='page' n='835' />-->
+      <!--<div type='page' n='836' />-->
+      <!--<div type='page' n='837' />-->
+      <!--<div type='page' n='838' />-->
+      <!--<div type='page' n='839' />-->
+      <!--<div type='page' n='840' />-->
+      <!--<div type='page' n='841' />-->
+      <!--<div type='page' n='842' />-->
+      <!--<div type='page' n='843' />-->
+      <!--<div type='page' n='844' />-->
+      <!--<div type='page' n='845' />-->
+      <!--<div type='page' n='846' />-->
+      <!--<div type='page' n='847' />-->
+      <!--<div type='page' n='848' />-->
+      <!--<div type='page' n='849' />-->
+      <!--<div type='page' n='850' />-->
+      <!--<div type='page' n='851' />-->
+      <!--<div type='page' n='852' />-->
+      <!--<div type='page' n='853' />-->
+      <!--<div type='page' n='854' />-->
+      <!--<div type='page' n='855' />-->
+      <!--<div type='page' n='856' />-->
+      <!--<div type='page' n='857' />-->
+      <!--<div type='page' n='858' />-->
+      <!--<div type='page' n='859' />-->
+      <!--<div type='page' n='860' />-->
+      <!--<div type='page' n='861' />-->
+      <!--<div type='page' n='862' />-->
+      <!--<div type='page' n='863' />-->
+      <!--<div type='page' n='864' />-->
+      <!--<div type='page' n='865' />-->
+      <!--<div type='page' n='866' />-->
+      <!--<div type='page' n='867' />-->
+      <!--<div type='page' n='868' />-->
+      <!--<div type='page' n='869' />-->
+      <!--<div type='page' n='870' />-->
+      <!--<div type='page' n='871' />-->
+      <!--<div type='page' n='872' />-->
+      <!--<div type='page' n='873' />-->
+      <!--<div type='page' n='874' />-->
+      <!--<div type='page' n='875' />-->
+      <!--<div type='page' n='876' />-->
+      <!--<div type='page' n='877' />-->
+      <!--<div type='page' n='878' />-->
+      <!--<div type='page' n='879' />-->
+      <!--<div type='page' n='880' />-->
+      <!--<div type='page' n='881' />-->
+      <!--<div type='page' n='882' />-->
+      <!--<div type='page' n='883' />-->
+      <!--<div type='page' n='884' />-->
+      <!--<div type='page' n='885' />-->
+      <!--<div type='page' n='886' />-->
+      <!--<div type='page' n='887' />-->
+      <!--<div type='page' n='888' />-->
+      <!--<div type='page' n='889' />-->
+      <!--<div type='page' n='890' />-->
+      <!--<div type='page' n='891' />-->
+      <!--<div type='page' n='892' />-->
+      <!--<div type='page' n='893' />-->
+      <!--<div type='page' n='894' />-->
+      <!--<div type='page' n='895' />-->
+      <!--<div type='page' n='896' />-->
+      <!--<div type='page' n='897' />-->
+      <!--<div type='page' n='898' />-->
+      <!--<div type='page' n='899' />-->
+      <!--<div type='page' n='900' />-->
+      <!--<div type='page' n='901' />-->
+      <!--<div type='page' n='902' />-->
+      <!--<div type='page' n='903' />-->
+      <!--<div type='page' n='904' />-->
+      <!--<div type='page' n='905' />-->
+      <!--<div type='page' n='906' />-->
+      <!--<div type='page' n='907' />-->
+      <!--<div type='page' n='908' />-->
+      <!--<div type='page' n='909' />-->
+      <!--<div type='page' n='910' />-->
+      <!--<div type='page' n='911' />-->
+      <!--<div type='page' n='912' />-->
+      <!--<div type='page' n='913' />-->
+      <!--<div type='page' n='914' />-->
+      <!--<div type='page' n='915' />-->
+      <!--<div type='page' n='916' />-->
+      <!--<div type='page' n='917' />-->
+      <!--<div type='page' n='918' />-->
+      <!--<div type='page' n='919' />-->
+      <!--<div type='page' n='920' />-->
+      <!--<div type='page' n='921' />-->
+      <!--<div type='page' n='922' />-->
+      <!--<div type='page' n='923' />-->
+      <!--<div type='page' n='924' />-->
+      <!--<div type='page' n='925' />-->
+      <!--<div type='page' n='926' />-->
+      <!--<div type='page' n='927' />-->
+      <!--<div type='page' n='928' />-->
+      <!--<div type='page' n='929' />-->
+      <!--<div type='page' n='930' />-->
+      <!--<div type='page' n='931' />-->
+      <!--<div type='page' n='932' />-->
+      <!--<div type='page' n='933' />-->
+      <!--<div type='page' n='934' />-->
+      <!--<div type='page' n='935' />-->
+      <!--<div type='page' n='936' />-->
+      <!--<div type='page' n='937' />-->
+      <!--<div type='page' n='938' />-->
+      <!--<div type='page' n='939' />-->
+      <!--<div type='page' n='940' />-->
+      <!--<div type='page' n='941' />-->
+      <!--<div type='page' n='942' />-->
+      <!--<div type='page' n='943' />-->
+      <!--<div type='page' n='944' />-->
+      <!--<div type='page' n='945' />-->
+      <!--<div type='page' n='946' />-->
+      <!--<div type='page' n='947' />-->
+      <!--<div type='page' n='948' />-->
+      <!--<div type='page' n='949' />-->
+      <!--<div type='page' n='950' />-->
+      <!--<div type='page' n='951' />-->
+      <!--<div type='page' n='952' />-->
+      <!--<div type='page' n='953' />-->
+      <!--<div type='page' n='954' />-->
+      <!--<div type='page' n='955' />-->
+      <!--<div type='page' n='956' />-->
+      <!--<div type='page' n='957' />-->
+      <!--<div type='page' n='958' />-->
+      <!--<div type='page' n='959' />-->
+      <!--<div type='page' n='960' />-->
+      <!--<div type='page' n='961' />-->
+      <!--<div type='page' n='962' />-->
+      <!--<div type='page' n='963' />-->
+      <!--<div type='page' n='964' />-->
+      <!--<div type='page' n='965' />-->
+      <!--<div type='page' n='966' />-->
+      <!--<div type='page' n='967' />-->
+      <!--<div type='page' n='968' />-->
+      <!--<div type='page' n='969' />-->
+      <!--<div type='page' n='970' />-->
+      <!--<div type='page' n='971' />-->
+      <!--<div type='page' n='972' />-->
+      <!--<div type='page' n='973' />-->
+      <!--<div type='page' n='974' />-->
+      <!--<div type='page' n='975' />-->
+      <!--<div type='page' n='976' />-->
+      <!--<div type='page' n='977' />-->
+      <!--<div type='page' n='978' />-->
+      <!--<div type='page' n='979' />-->
+      <!--<div type='page' n='980' />-->
+      <!--<div type='page' n='981' />-->
+      <!--<div type='page' n='982' />-->
+      <!--<div type='page' n='983' />-->
+      <!--<div type='page' n='984' />-->
+      <!--<div type='page' n='985' />-->
+      <!--<div type='page' n='986' />-->
+      <!--<div type='page' n='987' />-->
+      <!--<div type='page' n='988' />-->
+      <!--<div type='page' n='989' />-->
+      <!--<div type='page' n='990' />-->
+      <!--<div type='page' n='991' />-->
+      <!--<div type='page' n='992' />-->
+      <!--<div type='page' n='993' />-->
+      <!--<div type='page' n='994' />-->
+      <!--<div type='page' n='995' />-->
+      <!--<div type='page' n='996' />-->
+      <!--<div type='page' n='997' />-->
+      <!--<div type='page' n='998' />-->
+      <!--<div type='page' n='999' />-->
+      <!--<div type='page' n='1000' />-->
+      <!--<div type='page' n='1001' />-->
+      <!--<div type='page' n='1002' />-->
+      <!--<div type='page' n='1003' />-->
+      <!--<div type='page' n='1004' />-->
+      <!--<div type='page' n='1005' />-->
+      <!--<div type='page' n='1006' />-->
+      <!--<div type='page' n='1007' />-->
+      <!--<div type='page' n='1008' />-->
+      <!--<div type='page' n='1009' />-->
+      <!--<div type='page' n='1010' />-->
+      <!--<div type='page' n='1011' />-->
+      <!--<div type='page' n='1012' />-->
+      <!--<div type='page' n='1013' />-->
+      <!--<div type='page' n='1014' />-->
+      <!--<div type='page' n='1015' />-->
+      <!--<div type='page' n='1016' />-->
+      <div type="page" n="1017">][ نسخت هذا النقل من نسخة بخط الشيخ أبى الخير الحسن بن سوار رضى الله عنه. وفى آخرها ما هذه حكايته: نسخت هذا النقل من نسخة خيل إلى أنها بخط أبى نصر الفارابى، كان النصف الأول منها مصححا جيدا، والنصف الثانى مسقاما. قال الشيخ أبو الخير الحسن بن سوار رضى الله عنه: لما كان الناقل يحتاج — فى تأدية المعنى إلى فهمه باللغة التى منها ينقل — إلى أن يكون متصورا له كتصور قائله، وإلى أن يكون عارفا باستعمال اللغة التى منها ينقل، والتى إليها ينقل، وكان أثانس الراهب غير قيم بمعانى أرسطوطالس فيه — داخل نقله الخلل لا محالة. ولما كان من نقل هذا الكتاب من السريانية بنقل أثانس — إلى العربية، ممن قد ذكر اسمه، لم يقع إليهم تفسير له — عولوا على أفهامهم فى إدراك معانيه: فكل اجتهد فى إصابة الحق وإدراك الغرض الذى إياه قصد الفيلسوف، فغيروا ما فهموه من نقل أثانس إلى العربية؛ فلأنا أحببنا الوقوف على ما وقع لكل واحد منهم، كتبنا جميع النقول التى وقعت إلينا، ليقع التأمل لكل واحد منها ويستعان ببعضها على بعض فى إدراك المعنى. وقد كان الفاضل يحيى بن عدى فسر هذا الكتاب تفسيراً رأيت منه الكثير وقدرته نحوا من ثلثيه بالسريانية والعربية، وأظن 〈أنه〉 تممه، </div>
+      <div type="page" n="1018">ولم يوجد فى كتبه بعد وفاته، وتصرفت بى الظنون فى أمره: فتارة أظن أنه أبطله لأنه لم يرتضه، وتارة أظن أنه سرق، وهذا أقوى فى نفسى. ونقل هذا الكتاب النقل المذكور قبل تفسيره إياه، فلذلك لحق نقله اعتياص ما لأنه لم يشارف المعنى، واتبع السريانى فى النقل. وقد وجد فى وقتنا هذا تفسير الإسكندر الأفروذيسى له باليونانية، تعجز من أوله كراسة، ولم يخرج منه إلا اليسير. واتصل بى أن أبا إسحق ابراهيم بن بكوش نقل هذا الكتاب من السريانى إلى العربى، وأنه كان يجتمع مع يوحنا القس اليونانى المهندس المعروف بابن فتيلة، على إصلاح مواضع منه من اليوانى. ولم يقع إلى. وقيل إن أبا بشر — رحمه الله — أصلح النقل الأول، أو نقله نقلا آخر، ولم يقع إلى. وكتبت هذه الجملة ليعلم من يقع إليه هذا الكتاب صورة أمره والسبب فى إثباتى جميع النقول على السبيل المسطور ][ هنا تنتهى المخطوطة رقم ٢٣٤٦ عربى بالمكتبة الأهلية بباريس. </div>
+   </body>
+   
+</TAN-T>

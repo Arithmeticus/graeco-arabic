@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TAN-T xmlns="tag:textalign.net,2015:ns"
+       TAN-version="2018"
+       id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar001.ref-logical-native">
+   
+   <head>
+      <name>Sententiae (version Men ar I) by pseudo-Menander in ara published 1961</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Menandersentenzen Überlieferung 1961"/>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar001</IRI>
+         <name>Sententiae (version Men ar I) by pseudo-Menander in ara published 1961</name>
+         <location href="psMenan-Ar001.tan-tei.xml" when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <see-also relationship="resegmented">
+         <IRI>tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-psMenan-Ar001.ref-scriptum-native-by-page</IRI>
+         <name>Sententiae (version Men ar I) by pseudo-Menander in ara published 1961 as TAN-T resegmenting the text via untyped pb</name>
+         <location href="psMenan-Ar001.tan-t.ref-scriptum-native-by-page.xml"
+                   when-accessed="2018-02-07-05:00"/>
+      </see-also>
+      <definitions>
+         <algorithm xml:id="xslt1">
+            <IRI>tag:textalign.net,2015:stylesheet:convert-tan-tei-to-tan-t</IRI>
+            <name>Stylesheet to create a TAN file.</name>
+            <desc>Stylesheet at: ../../do%20things/configure%20parameters/parameters-for-TAN-output.xsl</desc>
+         </algorithm>
+         <work which="Sententiae"/>
+         <div-type xml:id="p" which="paragraph"/>
+         <div-type xml:id="chapter" which="chapter"/>
+         <div-type xml:id="sentence" which="sentence"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+         <div-type xml:id="title" which="title"/>
+         <relationship which="resegmented copy" xml:id="resegmented"/>
+      </definitions>
+      
+      <resp who="xslt1" roles="stylesheet"/>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at psMenan-Ar001</change>
+      <change who="xslt1" when="2018-02-07T00:10:42.087-05:00">Converted from TAN-TEI to TAN-T.</change>
+      </head>
+   
+      <body xml:lang="ara">
+      <div type="chapter" n="1">
+         <div type="title" n="title">Α </div>
+         <div type="sentence" n="1"> 
+            <div type="p" n="1">ينبغى للإنسان أن يفهم الأمور الإنسانية (Št 1, Mḫb 1) </div> 
+         </div>
+         <div type="sentence" n="2"> 
+            <div type="p" n="1">إن الأدب للإنسان ذخر لا يسلب (bH 1, Št 2, Mḫb 2) </div> 
+         </div>
+         <div type="sentence" n="3"> 
+            <div type="p" n="1">ارفع من عمرك ما يحزنك (Št 3, Mṣr 8, Mḫb 3, Šz 1) </div> 
+         </div>
+         <div type="sentence" n="4"> 
+            <div type="p" n="1">إن أمور العالم تعلمك العلم (Št 4, Šz 2) </div> 
+         </div>
+         <div type="sentence" n="5"> 
+            <div type="p" n="1">إن كنت ميتا فلا تحقر عداوة من لا يموت (Št 5) </div> 
+         </div>
+         <div type="sentence" n="6"> 
+            <div type="p" n="1">إن الأحرار يكتفون بأن يسمعوا الشىء مرة واحدة (bH 2, Mḫb 4) </div> 
+         </div>
+         <div type="sentence" n="7"> 
+            <div type="p" n="1">كل ربح يكون من ظلم فهو جالب مضرة (bH 3, Mșr 4, Šz 3) </div> 
+         </div>
+         <div type="sentence" n="8"> 
+            <div type="p" n="1">كل ما يختار فى وقته يفرح به (Št 6, Šz 4) </div> 
+         </div>
+         <div type="sentence" n="9"> 
+            <div type="p" n="1">إن أحسنت الصبر على الأعراض كنت سعيدا (Šz 5) </div> 
+         </div>
+         <div type="sentence" n="10"> 
+            <div type="p" n="1">من أحسن إليه فلم يذكر كان غير الشكور (Šz 6) </div> 
+         </div>
+         <div type="sentence" n="11"> 
+            <div type="p" n="1">إن الزمان يبين الحق وينيره (Št 7, Šz 7) </div> 
+         </div>
+         <div type="sentence" n="12"> 
+            <div type="p" n="1">من لم يهتم بمعاشه لم تحسن أخلاقه (bH 4, Mḫb 5, Šz 8) </div> 
+         </div>
+         <div type="sentence" n="13"> 
+            <div type="p" n="1">إن العقل أبدا كنز خير عظيم (Mḫb 6, Šz 9) </div> 
+         </div>
+         <div type="sentence" n="14"> 
+            <div type="p" n="1">من احتمل المصائب احتمالا شديدا فهو رجل (Mḫb 7, Šz 10) </div> 
+         </div>
+         <div type="sentence" n="15"> 
+            <div type="p" n="1">إن الله منتقم من الأشرار (Mḫb 8, Šz 11) </div> 
+         </div>
+         <div type="sentence" n="16"> 
+            <div type="p" n="1">كثيرا ما يدخل الضرر على الناس بتركهم المشورة (Šz 12) </div> 
+         </div>
+         <div type="sentence" n="17"> 
+            <div type="p" n="1">أذكر نفسك أبدا أنك إنسان (Št 8) </div> 
+         </div>
+         <div type="sentence" n="18"> 
+            <div type="p" n="1">لا تعذل أحدا قبل أن تفحص عن أمره (Šz 13) </div> 
+         </div>
+         <div type="sentence" n="19"> 
+            <div type="p" n="1">لا تدع الأشياء الظاهرة فتطلب ما ليس بظاهر (Mḫb 9, Šz 14) </div> 
+         </div>
+         <div type="sentence" n="20"> 
+            <div type="p" n="1">إن الرجل الشرير شقى وإن ظن به أنه سعيد (Mḫb 10) </div> 
+         </div>
+         <div type="sentence" n="21"> 
+            <div type="p" n="1">إن كنت إنسانا فافهم كيف تضبط غضبك (Št 9, Mḫb 11) </div> 
+         </div>
+         <div type="sentence" n="22"> 
+            <div type="p" n="1">إن الغضب أوضع جميع الأشياء (Mḫb 12) </div> 
+         </div>
+         <div type="sentence" n="23"> 
+            <div type="p" n="1">لا تفعل فعلا قبيحا البتة ولا تتعلمه (Mḫb 13) </div> 
+         </div>
+         <div type="sentence" n="24"> 
+            <div type="p" n="1">إن الأدب يؤنس كل شىء (Mḫb 14, Šz 15) </div> 
+         </div>
+         <div type="sentence" n="25"> 
+            <div type="p" n="1">اهرب من مشورة الرجل الشرير (Mḫb 15, Šz 16) </div> 
+         </div>
+         <div type="sentence" n="26"> 
+            <div type="p" n="1">اكتب أيمان الرجال الكذبة على الماء (Mṣr 1, Mḫb 16) </div> 
+         </div>
+         <div type="sentence" n="27"> 
+            <div type="p" n="1">إذا نالتك مضرة فاعلم أنك كنت أهلها (Št 10, Mṣr 2, Mḫb 17, Šz 17) </div> 
+         </div>
+         <div type="sentence" n="28"> 
+            <div type="p" n="1">قد يعلم مذهب الرجل من كلامه (Mṣr 3, Mḫb 18, Šz 18) </div> 
+         </div>
+         <div type="sentence" n="29"> 
+            <div type="p" n="1">الرجل العادل ليس هو الذى لا يظلم بل الذى يقوى أن يظلم فلا يرضاه ولا يختاره (bH 5/6, Šz 19/20) </div> 
+         </div>
+         <div type="sentence" n="31"> 
+            <div type="p" n="1">الكبر يفسد قوة الجسد (bH 7) </div> 
+         </div>
+         <div type="sentence" n="32"> 
+            <div type="p" n="1">إن معرفة الأمور الحسنة لشىء فاضل (Šz 21) </div> 
+         </div>
+         <div type="sentence" n="33"> 
+            <div type="p" n="1">لا ينال الناس شيئاً من المكروه بغير سبب (Šz 22) </div> 
+         </div>
+         <div type="sentence" n="34"> 
+            <div type="p" n="1">إن الذى يهرب من القتال فيرجع فيقاتل لرجل (Šz 23) </div> 
+         </div>
+         <div type="sentence" n="35"> 
+            <div type="p" n="1">الرجل الخير لا يبغض الخير أبدا (Šz 24) </div> 
+         </div>
+         <div type="sentence" n="36"> 
+            <div type="p" n="1">إن محبى المال ليست لهم حرية (Mḫb 19, Šz 25) </div> 
+         </div>
+         <div type="sentence" n="37"> 
+            <div type="p" n="1">إن الرجل الشقى يعيش بالمنى (bH 8, Mṣr 5, Mḫb 20, Šz 26) </div> 
+         </div>
+         <div type="sentence" n="38"> 
+            <div type="p" n="1">إن القول الحسن هو دواء الغضب (Mṣr 6, Mḫb 21, Šz 27) </div> 
+         </div>
+         <div type="sentence" n="39"> 
+            <div type="p" n="1">إن الرجل يسلم الرجل والمدينة تسلم المدينة (Mḫb 22) </div> 
+         </div>
+         <div type="sentence" n="40"> 
+            <div type="p" n="1">لا تتخذ صديقا الرجل الذى ليس عنده شكر (Mḫb 23) </div> 
+         </div>
+         <div type="sentence" n="41"> 
+            <div type="p" n="1">إن الإنسان الشرير لا يرق أحشاءه على أحد (Mḫb 24) </div> 
+         </div>
+         <div type="sentence" n="42"> 
+            <div type="p" n="1">كل من حسنت حاله أحبه الأصدقاء (bH 9, Šz 28) الرجل إذا ساءت حاله هرب الأصدقاء منه (Mḫb 25, Šz 29) </div> 
+         </div>
+         <div type="sentence" n="44"> 
+            <div type="p" n="1">الرجاء غالب على الفراغ من الناس (Šz 30) </div> 
+         </div>
+         <div type="sentence" n="45"> 
+            <div type="p" n="1">ابتداء كل عفة مراقبة الله تعالى (bH 35) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="2">
+         <div type="title" n="title">B </div>
+         <div type="sentence" n="46"> 
+            <div type="p" n="1">ليس لشىء من العمر الفانى ثبات (Mḫb 26) </div> 
+         </div>
+         <div type="sentence" n="47"> 
+            <div type="p" n="1">اسلك الطريق المستقيم لتكون خيرا (Mḫb 27) </div> 
+         </div>
+         <div type="sentence" n="48"> 
+            <div type="p" n="1">اطلب رضى كل أحد لا رضى نفسك فقط (Št 11) </div> 
+         </div>
+         <div type="sentence" n="49"> 
+            <div type="p" n="1">كلنا نريد الغنى لكنا لا نقدر عليه (Mṣr 7, Mḫb 28) </div> 
+         </div>
+         <div type="sentence" n="50"> 
+            <div type="p" n="1">إن العمر هو الذى يعمر صاحبه بالفرح (Mḫb 29, Šz 31) </div> 
+         </div>
+         <div type="sentence" n="51"> 
+            <div type="p" n="1">إن العمر سمى عمرا لأنه يكتسب بمشقة (Mḫb 30) </div> 
+         </div>
+         <div type="sentence" n="52"> 
+            <div type="p" n="1">جميع الناس تدينهم معرفتهم بأنفسهم كما يدينهم الله (Šz 32) </div> 
+         </div>
+         <div type="sentence" n="53"> 
+            <div type="p" n="1">من استعمل العدل فى عمره تكون آخرته آخرة صالحة (Mḫb 31, Šz 33) </div> 
+         </div>
+         <div type="sentence" n="54"> 
+            <div type="p" n="1">كن رزينا واتّخذ الأصدقاء بالرزانة (Mḫb 32, Šz 34) </div> 
+         </div>
+         <div type="sentence" n="55"> 
+            <div type="p" n="1">ليس شىء أصح من الرأى الصحيح (Mḫb 33) </div> 
+         </div>
+         <div type="sentence" n="56"> 
+            <div type="p" n="1">إن الموت واجب على جميع الناس كلهم (Mḫb 34) </div> 
+         </div>
+         <div type="sentence" n="57"> 
+            <div type="p" n="1">عمر يحتاج إلى عمر غيره ليس بعمر (bH 10, Šz 35) </div> 
+         </div>
+         <div type="sentence" n="58"> 
+            <div type="p" n="1">مرض الجسد أصلح من مرض النفس (bH 11, Mḫb 35) </div> 
+         </div>
+         <div type="sentence" n="59"> 
+            <div type="p" n="1">إن المرأة تقصر عمر الرجال (Mḫb 36, Šz 36) </div> 
+         </div>
+         <div type="sentence" n="60"> 
+            <div type="p" n="1">إن لم تكن لك امرأة عشت عمرا صالحا (Mḫb 37, Šz 37) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="3">
+         <div type="title" n="title">Г </div>
+         <div type="sentence" n="61"> 
+            <div type="p" n="1">زينة كل امرأة سكوتها (bH 12, Mḫb 38, Šz 38) </div> 
+         </div>
+         <div type="sentence" n="62"> 
+            <div type="p" n="1">إن بالمرأة الصالحة يسلم المنزل (Mḫb 39, Šz 39) </div> 
+         </div>
+         <div type="sentence" n="63"> 
+            <div type="p" n="1">إن الضحك فى غير وقته هو ابن عم البكاء (Št 12, Mṣr 9, Mḫb 40, Šz 40) </div> 
+         </div>
+         <div type="sentence" n="64"> 
+            <div type="p" n="1">إن الأرض تلد كل شىء ثم تسترده (Št 13, Mṣr 10, Šz 41) </div> 
+         </div>
+         <div type="sentence" n="65"> 
+            <div type="p" n="1">الشيخ العاشق هو فى غاية رداءة البخت (Mḫb 41, Šz 42) </div> 
+         </div>
+         <div type="sentence" n="66"> 
+            <div type="p" n="1">من تزوج فإنه سيندم (Mḫb 42, Šz 43) </div> 
+         </div>
+         <div type="sentence" n="67"> 
+            <div type="p" n="1">إن المرأة العادلة هى سلامة العمر (Mḫb 43, Šz 44) </div> 
+         </div>
+         <div type="sentence" n="68"> 
+            <div type="p" n="1">وجود المرأة الخيرة ليس بسهل (bH 13, Mḫb 44, Šz 45) </div> 
+         </div>
+         <div type="sentence" n="69"> 
+            <div type="p" n="1">تدفن المرأة أصلح من أن تتزوج بها (Mḫb 45, Šz 46) </div> 
+         </div>
+         <div type="sentence" n="70"> 
+            <div type="p" n="1">إن المرأة على كل حال هى مطبوعة على الإفراط فى النفقة (Mḫb 46, Šz 47) </div> 
+         </div>
+         <div type="sentence" n="71"> 
+            <div type="p" n="1">تزوج بالمرأة لا بجهازها (Mḫb 47, Šz 48) </div> 
+         </div>
+         <div type="sentence" n="72"> 
+            <div type="p" n="1">إن المرأة الصالحة ركن لبيتها (Mḫb 48) </div> 
+         </div>
+         <div type="sentence" n="73"> 
+            <div type="p" n="1">إن الناس يتزوجون بالجهاز لا بالنساء (Mḫb 49, Šz 49) </div> 
+         </div>
+         <div type="sentence" n="74"> 
+            <div type="p" n="1">إن الطبيعة لا تطلق الرياسة للنساء (Mḫb 50, Šz 50) </div> 
+         </div>
+         <div type="sentence" n="75"> 
+            <div type="p" n="1">إن المرأة سلامة بيتها وسبب عطبه (Mḫb 51) </div> 
+         </div>
+         <div type="sentence" n="76"> 
+            <div type="p" n="1">إذا أردت التزويج فانظر إلى الجيران (Mḫb 52, Šz 51) </div> 
+         </div>
+         <div type="sentence" n="77"> 
+            <div type="p" n="1">اللسان الردىء يكتسب لصاحبه غرامة (Mḫb 53) </div> 
+         </div>
+         <div type="sentence" n="78"> 
+            <div type="p" n="1">إن المرأة لا تشير بشىء البتة فيه صلاح (Mḫb 54, Šz 52) </div> 
+         </div>
+         <div type="sentence" n="79"> 
+            <div type="p" n="1">إن المرأة لا تعلم شيئاً إلا ما تريده (Mṣr 11, Mḫb 55) </div> 
+         </div>
+         <div type="sentence" n="80"> 
+            <div type="p" n="1">إن رأى المشايخ أفضل من رأى الشبان (Mḫb 56) </div> 
+         </div>
+         <div type="sentence" n="81"> 
+            <div type="p" n="1">الأحمق يضحك وإن لم يكن شىء يضحك منه (Šz 53) </div> 
+         </div>
+         <div type="sentence" n="82"> 
+            <div type="p" n="1">إن المرأة تتملقك لتأخذ منك شيئاً (Mḫb 57, Šz 54) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="4">
+         <div type="title" n="title">Δ </div>
+         <div type="sentence" n="83"> 
+            <div type="p" n="1">اعدل لينالك العدل (Mṣr 12) </div> 
+         </div>
+         <div type="sentence" n="84"> 
+            <div type="p" n="1">من يخطئ فى الشىء مرتين ليس بحكيم (Mṣr 13, Šz 55) </div> 
+         </div>
+         <div type="sentence" n="85"> 
+            <div type="p" n="1">إذا سقطت شجرة احتطب كل من أراد (Mṣr 14, Šz 56) </div> 
+         </div>
+         <div type="sentence" n="86"> 
+            <div type="p" n="1">الأشرار تجزع من الحكيم (Šz 57) </div> 
+         </div>
+         <div type="sentence" n="87"> 
+            <div type="p" n="1">ينبغى أن تكون المحبة صادقة لا بالكلام (Šz 58) </div> 
+         </div>
+         <div type="sentence" n="88"> 
+            <div type="p" n="1">عند حسن الحال يجب ذكر الله وحده (Mḫb 58) </div> 
+         </div>
+         <div type="sentence" n="89"> 
+            <div type="p" n="1">إن أعطيت صاحب البخت قليلا أخذت منه كثيرا (Mṣr 15, Šz 59) </div> 
+         </div>
+         <div type="sentence" n="90"> 
+            <div type="p" n="1">إذا عدلت أعانك الله تعالى (Šz 60) </div> 
+         </div>
+         <div type="sentence" n="91"> 
+            <div type="p" n="1">إن الرأى من الجبان جبان أيضا (bH 14, Št 14, Mṣr 16, Šz 61) </div> 
+         </div>
+         <div type="sentence" n="92"> 
+            <div type="p" n="1">إن المرأة مولاة من يتزوج بها (Mḫb 59, Šz 62) </div> 
+         </div>
+         <div type="sentence" n="93"> 
+            <div type="p" n="1">اطلب الشرف والفضيلة واهرب من الذم والرذيلة (Šz 63) </div> 
+         </div>
+         <div type="sentence" n="94"> 
+            <div type="p" n="1">الإنسان أقدر الحيوان على الحيلة (Šz 64) </div> 
+         </div>
+         <div type="sentence" n="95"> 
+            <div type="p" n="1">إذا كان مذهبك العدل استعملت السنة (Šz 65) </div> 
+         </div>
+         <div type="sentence" n="96"> 
+            <div type="p" n="1">إن البخت شىء عسر الوجود (Sz 66) </div> 
+         </div>
+         <div type="sentence" n="97"> 
+            <div type="p" n="1">اهرب من الرجل الفاسق فى جميع عمرك (Mḫb 60, Šz 67) </div> 
+         </div>
+         <div type="sentence" n="98"> 
+            <div type="p" n="1">السكوت يوجب الإقرار (Šz 68) </div> 
+         </div>
+         <div type="sentence" n="99"> 
+            <div type="p" n="1">ليس شىء أردأ من المملوك وإن كان خيرهم (bH 15, Šz 69) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="5">
+         <div type="title" n="title">Е </div>
+         <div type="sentence" n="100"> 
+            <div type="p" n="1">النقمة عين ترى كل شىء (Šz 70) </div> 
+         </div>
+         <div type="sentence" n="101"> 
+            <div type="p" n="1">الخير يكثر فى الناس من استعمال التعب (Mṣr 18, Šz 71) </div> 
+         </div>
+         <div type="sentence" n="102"> 
+            <div type="p" n="1">إن الحكماء يفكرون فى الأمور بالليل (Šz 72) </div> 
+         </div>
+         <div type="sentence" n="103"> 
+            <div type="p" n="1">اصبر على الحزن والمضرة صبرا شديدا (Šz 73) </div> 
+         </div>
+         <div type="sentence" n="104"> 
+            <div type="p" n="1">انتقم من الأعداء نقمة لا تضرك (Št 15, Mṣr 17, Šz 74) </div> 
+         </div>
+         <div type="sentence" n="105"> 
+            <div type="p" n="1">كن حسن الجرأة ولا تكن متهورا (Št 16, Šz 75) </div> 
+         </div>
+         <div type="sentence" n="106"> 
+            <div type="p" n="1">أعد أبدا ما تحتاج إليه لوقت كبرك (Šz 76) </div> 
+         </div>
+         <div type="sentence" n="107"> 
+            <div type="p" n="1">إن الجوع والفقر يقطعان العشق (bH 16, Mḫb 61, Šz 77) </div> 
+         </div>
+         <div type="sentence" n="108"> 
+            <div type="p" n="1">إن العشق مع الشبع لا مع الجوع (Mṣr 19, Mḫb 62, Šz 78) </div> 
+         </div>
+         <div type="sentence" n="109"> 
+            <div type="p" n="1">الرجل الخير محبب (Šz 79) </div> 
+         </div>
+         <div type="sentence" n="110"> 
+            <div type="p" n="1">قلما تجد الأمانة فى النساء (Mḫb 63, Šz 80) </div> 
+         </div>
+         <div type="sentence" n="111"> 
+            <div type="p" n="1">الرجاء غالب على كثير من الناس (Šz 81) </div> 
+         </div>
+         <div type="sentence" n="112"> 
+            <div type="p" n="1">إن فى الأشرار شيئاً من اللذة (Mḫb 64) </div> 
+         </div>
+         <div type="sentence" n="113"> 
+            <div type="p" n="1">من الناس من يرى رأياً رديئاً ويفعل فعلاً حسناً (Šz 82) </div> 
+         </div>
+         <div type="sentence" n="114"> 
+            <div type="p" n="1">إذا لم تصدق الأعداء لم تنلك مضرة (Mḫb 65, Šz 83) </div> 
+         </div>
+         <div type="sentence" n="115"> 
+            <div type="p" n="1">إن الله سميع لدعاء الحق (Mḫb 66, Šz 84) </div> 
+         </div>
+         <div type="sentence" n="116"> 
+            <div type="p" n="1">إن كانت لنا أموال صارت لنا أصدقاء (Mḫb 67, Šz 85) </div> 
+         </div>
+         <div type="sentence" n="117"> 
+            <div type="p" n="1">ليس عند الرجل العدو شىء من المنفعة (Mḫb 68) </div> 
+         </div>
+         <div type="sentence" n="118"> 
+            <div type="p" n="1">صير مذهبك مذهب الأحرار (Mḫb 69) </div> 
+         </div>
+         <div type="sentence" n="119"> 
+            <div type="p" n="1">من صاحب السكوت يستهان به (Šz 86) </div> 
+         </div>
+         <div type="sentence" n="120"> 
+            <div type="p" n="1">إن عبد المنزل هو رب المنزل وحده (Mṣr 20, Šz 87) </div> 
+         </div>
+         <div type="sentence" n="121"> 
+            <div type="p" n="1">من الناس من يبغض المحسن إليه (Mṣr 21, Šz 88) </div> 
+         </div>
+         <div type="sentence" n="122"> 
+            <div type="p" n="1">إذا كنت ميتا فلا تذهب مذهب من لا يموت (Št 17, Mṣr 22, Šz 89) </div> 
+         </div>
+         <div type="sentence" n="123"> 
+            <div type="p" n="1">إن لم تحفظ القليل أهلكت الكثير (Mṣr 23) </div> 
+         </div>
+         <div type="sentence" n="124"> 
+            <div type="p" n="1">إن كنت ميتا فاعمل عمل من يموت (Šz 90) </div> 
+         </div>
+         <div type="sentence" n="125"> 
+            <div type="p" n="1">الصالح من الناس حسن الظن عند الشدائد (Šz 91) </div> 
+         </div>
+         <div type="sentence" n="126"> 
+            <div type="p" n="1">وجود الحكمة لا يكون إلا بعقل (Šz 92) </div> 
+         </div>
+         <div type="sentence" n="127"> 
+            <div type="p" n="1">لن يكسب الإنسان الحسنة إلا بالتعب (Šz 93) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="6">
+         <div type="title" n="title">Z </div>
+         <div type="sentence" n="128"> 
+            <div type="p" n="1">تحسن عيشك إن قهرت غضبك (Šz 94) </div> 
+         </div>
+         <div type="sentence" n="129"> 
+            <div type="p" n="1">إن ذوى الألباب يختارون الموت على الحيوة الرديئة (Šz 95) </div> 
+         </div>
+         <div type="sentence" n="130"> 
+            <div type="p" n="1">إن أردت أن تحيا فلا تعمل عملا يوجب الموت (Št 18) </div> 
+         </div>
+         <div type="sentence" n="131"> 
+            <div type="p" n="1">إن غيرة الرجل تفسد المنزل (Šz 96) </div> 
+         </div>
+         <div type="sentence" n="132"> 
+            <div type="p" n="1">إذا تزوجت فاطلب المرأة التى تعينك على الأمور (Mḫb 70, Šz 97) </div> 
+         </div>
+         <div type="sentence" n="133"> 
+            <div type="p" n="1">إن الحيوة اللذيذة لا تهيأ للفاجر الشره (Mḫb 71, Šz 98) </div> 
+         </div>
+         <div type="sentence" n="134"> 
+            <div type="p" n="1">من حاول إفساد امرأة مزوجة فهو خارج من الحرية (Šz 99) </div> 
+         </div>
+         <div type="sentence" n="135"> 
+            <div type="p" n="1">ما كان ينبغى أن تعيش المرأة لأسباب كثيرة (Mḫb 72) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="7">
+         <div type="title" n="title">H </div>
+         <div type="sentence" n="136"> 
+            <div type="p" n="1">إن البطن يشبع قليلا وكثيرا (Šz 100) </div> 
+         </div>
+         <div type="sentence" n="137"> 
+            <div type="p" n="1">اهرب من الخلق الردىء ومن الربح القبيح (Šz 101) </div> 
+         </div>
+         <div type="sentence" n="138"> 
+            <div type="p" n="1">إذا أقبل الكبر جلب كل علة (Mḫb 73) </div> 
+         </div>
+         <div type="sentence" n="139"> 
+            <div type="p" n="1">إن سرعة الغضب فى الناس شر عظيم (على من يستعمله) (Mḫb 74) </div> 
+         </div>
+         <div type="sentence" n="140"> 
+            <div type="p" n="1">الأب المتحمل المدارى لولده أحمد ممن يتجنى عليه ويغضب (Mḫb 75) </div> 
+         </div>
+         <div type="sentence" n="141"> 
+            <div type="p" n="1">إن الأخلاق الرديئة تغير الطبيعة المحمودة (Mḫb 76) </div> 
+         </div>
+         <div type="sentence" n="142"> 
+            <div type="p" n="1">إن محبة الأموال شىء لذيذ (Mḫb 77) </div> 
+         </div>
+         <div type="sentence" n="143"> 
+            <div type="p" n="1">إما أن لا تتزوج بتة أو تتزوج فتصونها (Mḫb 78, Šz 102) </div> 
+         </div>
+         <div type="sentence" n="144"> 
+            <div type="p" n="1">إن الوطن محبوب عند الناس (Mḫb 79) </div> 
+         </div>
+         <div type="sentence" n="145"> 
+            <div type="p" n="1">إن اللذة المفرطة تورث مضرة (Mḫb 80) </div> 
+         </div>
+         <div type="sentence" n="146"> 
+            <div type="p" n="1">إن النظر إلى حسن حال الرجل العادل لذيذ (Mḫb 81) </div> 
+         </div>
+         <div type="sentence" n="147"> 
+            <div type="p" n="1">إما أن لا تعمل شيئا تخفيه وإذا عملته تفردت به (Mṣr 25, Mḫb 82) </div> 
+         </div>
+         <div type="sentence" n="148"> 
+            <div type="p" n="1">الزمان 〈محك〉 لأخلاق الناس (Šz 103) </div> 
+         </div>
+         <div type="sentence" n="149"> 
+            <div type="p" n="1">باللسان تفتح (؟) الشرور (Mḫb 83) </div> 
+         </div>
+         <div type="sentence" n="150"> 
+            <div type="p" n="1">إما أن لا تلعب بالنرد أو تحتمل ما يأتى به البخت (Mḫb 84, Šz 104) </div> 
+         </div>
+         <div type="sentence" n="151"> 
+            <div type="p" n="1">السكوت أمثل من القول بما لا ينبغى (Šz 105) </div> 
+         </div>
+         <div type="sentence" n="152"> 
+            <div type="p" n="1">إن الحمق يجلب الشر على الناس (Šz 106) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="8">
+         <div type="title" n="title">Θ </div>
+         <div type="sentence" n="153"> 
+            <div type="p" n="1">إذا كنت ميتا فلا تشمت بمن مات (Mṣr 26, Mḫb 85) </div> 
+         </div>
+         <div type="sentence" n="154"> 
+            <div type="p" n="1">إن الطبيعة كونت جميع الأشياء بإرادة الرب (Št 19, Mḫb 86, Šz 107) </div> 
+         </div>
+         <div type="sentence" n="155"> 
+            <div type="p" n="1">نريد بأجمعنا الحيوة الصالحة لكنا لا نقدر على ذلك (Mḫb 87) </div> 
+         </div>
+         <div type="sentence" n="156"> 
+            <div type="p" n="1">إن المادة هى كنز العمر (Mḫb 88, Šz 108) </div> 
+         </div>
+         <div type="sentence" n="157"> 
+            <div type="p" n="1">إن الشكر موهبة من الله للعبد (bH 37, Mḫb 89) </div> 
+         </div>
+         <div type="sentence" n="158"> 
+            <div type="p" n="1">إن أردت أن تحيا حيوة صالحة فلا تعمل أعمال الرداءة (Mḫb 90) </div> 
+         </div>
+         <div type="sentence" n="159"> 
+            <div type="p" n="1">قدم كرامة الله أولا ثم كرامة الوالدين ثانيا (Mḫb 91) </div> 
+         </div>
+         <div type="sentence" n="160"> 
+            <div type="p" n="1">من لا يفعل سيئا من الشر فهو إلاهى. [يريد بالإلاهى الشريف كالملائكة] (Št 20, Šz 109) </div> 
+         </div>
+         <div type="sentence" n="161"> 
+            <div type="p" n="1">آمن بالله توفق فى أمورك (Št 21, Mṣr 28) </div> 
+         </div>
+         <div type="sentence" n="162"> 
+            <div type="p" n="1">إن الله إذا أعان سهل جميع الأمور (Mḫb 92) </div> 
+         </div>
+         <div type="sentence" n="163"> 
+            <div type="p" n="1">الوالدان آلهة كبار عند من يعقل (Šz 110) </div> 
+         </div>
+         <div type="sentence" n="164"> 
+            <div type="p" n="1">الحسد غالب على أكثر طباع النساء (Mṣr 27, Šz 111) </div> 
+         </div>
+         <div type="sentence" n="165"> 
+            <div type="p" n="1">أحسن من يقدر على منفعتك (Šz 112) </div> 
+         </div>
+         <div type="sentence" n="166"> 
+            <div type="p" n="1">إن مساعدة الأشرار على فعلهم كفر بالله (bH 38, Št 22, Šz 113) </div> 
+         </div>
+         <div type="sentence" n="167"> 
+            <div type="p" n="1">أعظم القربان إلى الله حسن الإيمان (Mḫb 93) </div> 
+         </div>
+         <div type="sentence" n="168"> 
+            <div type="p" n="1">إن المغلوب من قاتل الله والبخت (bH 39, Št 23) </div> 
+         </div>
+         <div type="sentence" n="169"> 
+            <div type="p" n="1">إن خلق المرأة أردأ من أخلاق جميع السباع (Mḫb 94) </div> 
+         </div>
+         <div type="sentence" n="170"> 
+            <div type="p" n="1">ثلاثة أشياء رديئة البحر والنار والمرأة السوء (Mḫb 95) </div> 
+         </div>
+         <div type="sentence" n="171"> 
+            <div type="p" n="1">اعرف الله واعقل الأمور الإنسانية (Št 24) </div> 
+         </div>
+         <div type="sentence" n="172"> 
+            <div type="p" n="1">إذا أراد الله خلاصك عبرت البحر على البارية (bH 40, Št 25, Mṣr 29) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="9">
+         <div type="title" n="title">I </div>
+         <div type="sentence" n="173"> 
+            <div type="p" n="1">إن المشورة نجح (Mṣr 30) </div> 
+         </div>
+         <div type="sentence" n="174"> 
+            <div type="p" n="1">إن العقل الذى يناطق الله لشريف (Št 26) </div> 
+         </div>
+         <div type="sentence" n="175"> 
+            <div type="p" n="1">إن قوام السنة بالرئيس (Št 27) </div> 
+         </div>
+         <div type="sentence" n="176"> 
+            <div type="p" n="1">إن لفيف الناس وإن كانت لهم قوة فليس لهم عقل (Št 28) </div> 
+         </div>
+         <div type="sentence" n="177"> 
+            <div type="p" n="1">كثرة كلام الطبيب مرض آخر للعليل (bH 17, Mṣr 31) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="10">
+         <div type="title" n="title">K </div>
+         <div type="sentence" n="178"> 
+            <div type="p" n="1">ما أحسن معرفة قدر كل زمان (Mṣr 32) </div> 
+         </div>
+         <div type="sentence" n="179"> 
+            <div type="p" n="1">من عاشر الأردياء صار رديئا أيضا (Mḫb 96) </div> 
+         </div>
+         <div type="sentence" n="180"> 
+            <div type="p" n="1">إن الأدب قنية للناس حسنة (Mḫb 97) </div> 
+         </div>
+         <div type="sentence" n="181"> 
+            <div type="p" n="1">إن الزمان يميز الأصدقاء كما تميز النار الذهب (Mḫb 98) </div> 
+         </div>
+         <div type="sentence" n="182"> 
+            <div type="p" n="1">إن الرغبة شر عظيم فى الناس (Mḫb 99) </div> 
+         </div>
+         <div type="sentence" n="183"> 
+            <div type="p" n="1">عاقب الشرير إن قدرت على ذلك (Mḫb 100) </div> 
+         </div>
+         <div type="sentence" n="184"> 
+            <div type="p" n="1">ترك الإساءة بالأصدقاء أحسن (Mḫb 101) </div> 
+         </div>
+         <div type="sentence" n="185"> 
+            <div type="p" n="1">اختر الثناء الحسن على المال (Mṣr 34) </div> 
+         </div>
+         <div type="sentence" n="186"> 
+            <div type="p" n="1">ليس شىء أشقى من العجب (Mḫb 102) </div> 
+         </div>
+         <div type="sentence" n="187"> 
+            <div type="p" n="1">إن السكوت خير من الكلام الردىء (Mḫb 103) </div> 
+         </div>
+         <div type="sentence" n="188"> 
+            <div type="p" n="1">إن الأرباح الرديئة تجلب الخسران (Mḫb 104) </div> 
+         </div>
+         <div type="sentence" n="189"> 
+            <div type="p" n="1">الموت أحسن بمن حيوته مجلبة للعار (Mṣr 35) </div> 
+         </div>
+         <div type="sentence" n="190"> 
+            <div type="p" n="1">إن عاقبة محبى الزناء رديئة (Mḫb 105) </div> 
+         </div>
+         <div type="sentence" n="191"> 
+            <div type="p" n="1">إن الردىء لفى عذاب حيا وميتا (bH 18) </div> 
+         </div>
+         <div type="sentence" n="192"> 
+            <div type="p" n="1">ذهاب الحيوة خير من حيوة نكدة (bH 19) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="11">
+         <div type="title" n="title">Λ </div>
+         <div type="sentence" n="193"> 
+            <div type="p" n="1">إن الصناعة للناس معاش واسع (Mḫb 106) </div> 
+         </div>
+         <div type="sentence" n="194"> 
+            <div type="p" n="1">إن الأحزان تولد الأمراض (Mḫb 107) </div> 
+         </div>
+         <div type="sentence" n="195"> 
+            <div type="p" n="1">إن الحيوة الصالحة مع قلة الشى خير من الحيوة الرديئة مع كثرة الشىء (Mḫb 108) </div> 
+         </div>
+         <div type="sentence" n="196"> 
+            <div type="p" n="1">إن الشكر بالكلام هو مكافأة الإحسان (Mḫb 109) </div> 
+         </div>
+         <div type="sentence" n="197"> 
+            <div type="p" n="1">كما أن الفرضة هى موضع سلامة السفن كذلك سلامة العمر عدم الحزن (Mḫb 110) </div> 
+         </div>
+         <div type="sentence" n="198"> 
+            <div type="p" n="1">إن المرأة السوء حزن لازم أبدا (Mḫb 111) </div> 
+         </div>
+         <div type="sentence" n="199"> 
+            <div type="p" n="1">لا تصدق كلام العدو وإن ظننت أنة ينصحك (Mḫb 112) </div> 
+         </div>
+         <div type="sentence" n="200"> 
+            <div type="p" n="1">العيش مع الأسد أصلح من العيش مع امرأة سيئة الخلق (Mḫb 113) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="12">
+         <div type="title" n="title">М </div>
+         <div type="sentence" n="201"> 
+            <div type="p" n="1">لا تفحص عن نسب الإنسان بل افحص عن مذهبه (Mṣr 37) </div> 
+         </div>
+         <div type="sentence" n="202"> 
+            <div type="p" n="1">من أراد السعادة فينبغى أن يجتهد فى طلبها (Mṣr 36, Mḫb 114) </div> 
+         </div>
+         <div type="sentence" n="203"> 
+            <div type="p" n="1">الفضائل هو الهرب من الأشياء الرديئة [sic] أحد (Mḫb 115) </div> 
+         </div>
+         <div type="sentence" n="204"> 
+            <div type="p" n="1">لا تهرب من صاحب لك قد وقع فى بلية (Mḫb 116) </div> 
+         </div>
+         <div type="sentence" n="205"> 
+            <div type="p" n="1">إن السعادة هى تربية الوالد الحسن المذهب لولده (Mḫb 117) </div> 
+         </div>
+         <div type="sentence" n="206"> 
+            <div type="p" n="1">إن القول الجميل يذهب بالغضب (Mṣr 38, Mḫb 118) </div> 
+         </div>
+         <div type="sentence" n="207"> 
+            <div type="p" n="1">إذا كنت غنيا فاحرص أن تنفع المساكين (Mḫb 119) </div> 
+         </div>
+         <div type="sentence" n="208"> 
+            <div type="p" n="1">قد يغبط خادم المغبوطين (Mṣr 39) </div> 
+         </div>
+         <div type="sentence" n="209"> 
+            <div type="p" n="1">لا كان ما أريده بل كان ما فيه لى الخيرة (Mṣr 40) </div> 
+         </div>
+         <div type="sentence" n="210"> 
+            <div type="p" n="1">إن فى العمر الطويل تكون آفات كثيرة (Mḫb 120) </div> 
+         </div>
+         <div type="sentence" n="211"> 
+            <div type="p" n="1">لا تستشر امرأة فى وقت من الأوقات (Mḫb 121) </div> 
+         </div>
+         <div type="sentence" n="212"> 
+            <div type="p" n="1">لا تعير على امرأة ولا تعظها (Mḫb 122) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="13">
+         <div type="title" n="title">N </div>
+         <div type="sentence" n="213"> 
+            <div type="p" n="1">إذا كنت شابا فأطع المشايخ (Mḫb 123) </div> 
+         </div>
+         <div type="sentence" n="214"> 
+            <div type="p" n="1">إن جميع الأشياء يكون بالسنة وبها يميز (Mḫb 124) </div> 
+         </div>
+         <div type="sentence" n="215"> 
+            <div type="p" n="1">إن السنة توجب كرامة الوالدين مثل كرامة الإله (Št 29) </div> 
+         </div>
+         <div type="sentence" n="216"> 
+            <div type="p" n="1">ر أن والديك آلهة لك (Št 30) </div> 
+         </div>
+         <div type="sentence" n="217"> 
+            <div type="p" n="1">ينبغى للعاقل اتباع السنن فى جميع الأشياء (Mḫb 125) </div> 
+         </div>
+         <div type="sentence" n="218"> 
+            <div type="p" n="1">اقهر الغضب بالفكرة الحسنة (Mḫb 126) </div> 
+         </div>
+         <div type="sentence" n="219"> 
+            <div type="p" n="1">إذا أنت تزوجت فاعلم أنك قد صرت مملوكا عمرك (Mḫb 127) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="14">
+         <div type="title" n="title">Ξ </div>
+         <div type="sentence" n="220"> 
+            <div type="p" n="1">السيف يجرح الجسد والكلام يجرح النفس (Mṣr 41) </div> 
+         </div>
+         <div type="sentence" n="221"> 
+            <div type="p" n="1">إذا كنت غريبا فسر بسيرة سنن البلد (bH 20, Mṣr 42, Mḫb 128) </div> 
+         </div>
+         <div type="sentence" n="222"> 
+            <div type="p" n="1">إذا رأيت مسكينا غريبا فلا تخدعهم (Mḫb 129) </div> 
+         </div>
+         <div type="sentence" n="223"> 
+            <div type="p" n="1">إن الغربة صعبة لوجوه كثيرة (Mḫb 130) </div> 
+         </div>
+         <div type="sentence" n="224"> 
+            <div type="p" n="1">إن أحسنت إلى الغرباء فاعلم أنك تكافأ فى بعض الأوقات (Mḫb 131) </div> 
+         </div>
+         <div type="sentence" n="225"> 
+            <div type="p" n="1">اعن بصيانة الغرباء ولا تقصر فى ذلك (Mḫb 132) </div> 
+         </div>
+         <div type="sentence" n="226"> 
+            <div type="p" n="1">كن صديقا صالحا للغرباء الصلحاء (Mḫb 133) </div> 
+         </div>
+         <div type="sentence" n="227"> 
+            <div type="p" n="1">إذا أمكنك الزمان فلا تظلم غريبا البتة (Mḫb 134) </div> 
+         </div>
+         <div type="sentence" n="228"> 
+            <div type="p" n="1">إن العفة صالحة وهى للغرباء نافعة جدا (Mḫb 135) </div> 
+         </div>
+         <div type="sentence" n="229"> 
+            <div type="p" n="1">إذا كنت غريبا فقلل من الفضول فإن ذلك خير لك (Mḫb 136) </div> 
+         </div>
+         <div type="sentence" n="230"> 
+            <div type="p" n="1">إن من الناس من شأنهم الإحسان إلى الغرباء (Mḫb 137) </div> 
+         </div>
+         <div type="sentence" n="231"> 
+            <div type="p" n="1">إن السكوت أصلح للغريب من الكلام (Mḫb 138) </div> 
+         </div>
+         <div type="sentence" n="232"> 
+            <div type="p" n="1">إذا كنت غريبا فأكرم من يضيفك (Mḫb 139) </div> 
+         </div>
+         <div type="sentence" n="233"> 
+            <div type="p" n="1">أنصف الغرباء فلعلك تكون غريبا يوما ما (Mḫb 140) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="15">
+         <div type="title" n="title">Ο </div>
+         <div type="sentence" n="234"> 
+            <div type="p" n="1">اكتم أسرار الأصدقاء فى وقت الغضب (Mṣr 43) </div> 
+         </div>
+         <div type="sentence" n="235"> 
+            <div type="p" n="1">التعاقل فى غير أوانه يورث البغضة (Mṣr 44) </div> 
+         </div>
+         <div type="sentence" n="236"> 
+            <div type="p" n="1">لا يطلع على ما فى نفسك ويرى ما تفعله فأضمر ما شئت ولا تفعل إلا جميلا (Mṣr 45-46) </div> 
+         </div>
+         <div type="sentence" n="238"> 
+            <div type="p" n="1">ليس مع الغضب رأى صحيح (Mṣr 47) </div> 
+         </div>
+         <div type="sentence" n="239"> 
+            <div type="p" n="1">إن الفضيلة للناس سلاح عظيم (Mṣr 48) </div> 
+         </div>
+         <div type="sentence" n="240"> 
+            <div type="p" n="1">من لم يتزوج من الناس لم يصبه بؤس (Mḫb 141) </div> 
+         </div>
+         <div type="sentence" n="241"> 
+            <div type="p" n="1">لا يكون بؤس أشد من الفقر (Mḫb 142) </div> 
+         </div>
+         <div type="sentence" n="242"> 
+            <div type="p" n="1">اهرب من اليمين وإن كنت تحلف صادقا (Mḫb 143) </div> 
+         </div>
+         <div type="sentence" n="243"> 
+            <div type="p" n="1">إن الغلام المحب للعلم يصير رجلا عالما عظيما (bH 21, Mṣr 49, Mḫb 144) </div> 
+         </div>
+         <div type="sentence" n="244"> 
+            <div type="p" n="1">لا يحسن العاقل فى كل مكان (Mṣr 50) </div> 
+         </div>
+         <div type="sentence" n="245"> 
+            <div type="p" n="1">غضب الأصدقاء لا يدوم (Mṣr 51) </div> 
+         </div>
+         <div type="sentence" n="246"> 
+            <div type="p" n="1">إن الله يرى كل شىء (Mṣr 52) </div> 
+         </div>
+         <div type="sentence" n="247"> 
+            <div type="p" n="1">لا تستأهل السرقة السهر الذى يسهر لها (Mṣr 53) </div> 
+         </div>
+         <div type="sentence" n="248"> 
+            <div type="p" n="1">حيث النساء يتم كل شر (Mḫb 145) </div> 
+         </div>
+         <div type="sentence" n="249"> 
+            <div type="p" n="1">ليس يحب أحد فى دهرنا جارية ليس لها مال (Mḫb 146) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="16">
+         <div type="title" n="title">Π </div>
+         <div type="sentence" n="250"> 
+            <div type="p" n="1">أمانة الرجل أكرم من القول (Mḫb 147) </div> 
+         </div>
+         <div type="sentence" n="251"> 
+            <div type="p" n="1">لا يحتمل الفقر إلا حكيم (Mṣr 54) </div> 
+         </div>
+         <div type="sentence" n="252"> 
+            <div type="p" n="1">النميمة الرديئة قد تفسد مدينة (Mṣr 55) </div> 
+         </div>
+         <div type="sentence" n="253"> 
+            <div type="p" n="1">إن الله فى كل مكان (Mṣr 56) </div> 
+         </div>
+         <div type="sentence" n="254"> 
+            <div type="p" n="1">كثير من هو صديق للطعام لا للمودة (Mḫb 148) </div> 
+         </div>
+         <div type="sentence" n="255"> 
+            <div type="p" n="1">ينبغى للسعيد أن يحفظ وصايا الآباء (Mḫb 149) </div> 
+         </div>
+         <div type="sentence" n="256"> 
+            <div type="p" n="1">كثير من شقى بسبب النساء (Mḫb 150) </div> 
+         </div>
+         <div type="sentence" n="257"> 
+            <div type="p" n="1">كثير من له بخت ولا عقل له (Mḫb 151) </div> 
+         </div>
+         <div type="sentence" n="258"> 
+            <div type="p" n="1">إن الأب من ربى لا من ولد (Št 31, Mṣr 57) </div> 
+         </div>
+         <div type="sentence" n="259"> 
+            <div type="p" n="1">قد يصلح البخت سوء الفعال (Mṣr 58) </div> 
+         </div>
+         <div type="sentence" n="260"> 
+            <div type="p" n="1">كل من حسن لفظة سلامه كان محبوبا (Mṣr 59) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="17">
+         <div type="title" n="title">Ρ </div>
+         <div type="sentence" n="261"> 
+            <div type="p" n="1">إن الكلام فى غير وقته يفسد العمر كله (Št 32) </div> 
+         </div>
+         <div type="sentence" n="262"> 
+            <div type="p" n="1">إذا حضر البخت تمت الأمور (Št 33) </div> 
+         </div>
+         <div type="sentence" n="263"> 
+            <div type="p" n="1">لا تقدر على استرداد ما تكلمت به (Mṣr 60) </div> 
+         </div>
+         <div type="sentence" n="264"> 
+            <div type="p" n="1">إن الكسل هو فساد العمر كله (Mṣr 61, Mḫb 152) </div> 
+         </div>
+         <div type="sentence" n="265"> 
+            <div type="p" n="1">العظة أسهل من الصبر على المصيبة (Mṣr 62) </div> 
+         </div>
+         <div type="sentence" n="266"> 
+            <div type="p" n="1">خلص نفسك من كل مذهب ردىء (Mḫb 153) </div> 
+         </div>
+         <div type="sentence" n="267"> 
+            <div type="p" n="1">من صح بدنه طاب عيشه (Mḫb 154) </div> 
+         </div>
+         <div type="sentence" n="268"> 
+            <div type="p" n="1">إن المرأة كثيرة الدغل والدنس (Mḫb 155) </div> 
+         </div>
+         <div type="sentence" n="269"> 
+            <div type="p" n="1">يسهل عليك المعاش إن اجتنبت النساء (Mḫb 156) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="18">
+         <div type="title" n="title">Σ </div>
+         <div type="sentence" n="270"> 
+            <div type="p" n="1">مشورة الحكيم محكة لحكمته (Mṣr 65) </div> 
+         </div>
+         <div type="sentence" n="271"> 
+            <div type="p" n="1">كن مشيرا بالخير لا بالشر (Mḫb 157) </div> 
+         </div>
+         <div type="sentence" n="272"> 
+            <div type="p" n="1">خذ نفسك بمذاهب الأحرار (Mḫb 158) </div> 
+         </div>
+         <div type="sentence" n="273"> 
+            <div type="p" n="1">من كثرت عثراته كان غير حكيم (Mḫb 159) </div> 
+         </div>
+         <div type="sentence" n="274"> 
+            <div type="p" n="1">إن الذى أصاب القول الحسن لقد كان رجلا حكيما (Mḫb 160) </div> 
+         </div>
+         <div type="sentence" n="275"> 
+            <div type="p" n="1">لا مشير خير من الزمان (Mṣr 66) </div> 
+         </div>
+         <div type="sentence" n="276"> 
+            <div type="p" n="1">إن الحكمة أكرم من القنية بأضعاف كثيرة (Mḫb 161) </div> 
+         </div>
+         <div type="sentence" n="277"> 
+            <div type="p" n="1">احرص أن تكون سعادتك أبدا مع الأصدقاء (Mḫb 162) </div> 
+         </div>
+         <div type="sentence" n="278"> 
+            <div type="p" n="1">نادم الأخيار لا الأشرار (Mḫb 163) </div> 
+         </div>
+         <div type="sentence" n="279"> 
+            <div type="p" n="1">ينبغى أن تتعلم من الرجل الحكيم علما حكميا (Mḫb 164) </div> 
+         </div>
+         <div type="sentence" n="280"> 
+            <div type="p" n="1">إن أركان البيت هم الأولاد الذكورة (Mḫb 165) </div> 
+         </div>
+         <div type="sentence" n="281"> 
+            <div type="p" n="1">يجب على الإنسان الشريف أن يحتمل المصائب (Mḫb 166) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="19">
+         <div type="title" n="title">Τ </div>
+         <div type="sentence" n="282"> 
+            <div type="p" n="1">لا يكون للرجل الشقى صديق البتة (Mḫb 167) </div> 
+         </div>
+         <div type="sentence" n="283"> 
+            <div type="p" n="1">قد يظن بالسعيد رجوعه إلى العقل (Mṣr 67) </div> 
+         </div>
+         <div type="sentence" n="284"> 
+            <div type="p" n="1">إن عدم المال يعرض فى كل مكان (Mḫb 168) </div> 
+         </div>
+         <div type="sentence" n="285"> 
+            <div type="p" n="1">أكثر أمور الناس بالبخت لا بجودة الرأى (Mṣr 68) </div> 
+         </div>
+         <div type="sentence" n="286"> 
+            <div type="p" n="1">لا يعدم ذو مال صديقا (Mṣr 69) </div> 
+         </div>
+         <div type="sentence" n="287"> 
+            <div type="p" n="1">إن كثرة الفضول تذم فى كل موضع (Mḫb 169) </div> 
+         </div>
+         <div type="sentence" n="288"> 
+            <div type="p" n="1">إن الناس كلهم يلتذون بالنظر إلى الغنى (Mḫb 170) </div> 
+         </div>
+         <div type="sentence" n="289"> 
+            <div type="p" n="1">الأرض كلها موطن لمن يفعل فعلا حسنا (bH 36, Mḫb 171) </div> 
+         </div>
+         <div type="sentence" n="290"> 
+            <div type="p" n="1">إن معرفة الإنسان لنفسه نافعة له فى كل شىء (Mḫb 172) </div> 
+         </div>
+         <div type="sentence" n="291"> 
+            <div type="p" n="1">إن خزانة الفضيلة هى العفة (Mḫb 173) </div> 
+         </div>
+         <div type="sentence" n="292"> 
+            <div type="p" n="1">إن سنن الطبيعة لا تتعلم (Št 34) </div> 
+         </div>
+         <div type="sentence" n="293"> 
+            <div type="p" n="1">من مدح رجلا وذمه لم يكن رجلا حكيما (Mḫb 174) </div> 
+         </div>
+         <div type="sentence" n="294"> 
+            <div type="p" n="1">إن الشكر يذهب سريعا من جميع الناس (Mḫb 175) </div> 
+         </div>
+         <div type="sentence" n="295"> 
+            <div type="p" n="1">إن الحيوة بغير حزن لعمر لذيذ (Mḫb 176) </div> 
+         </div>
+         <div type="sentence" n="296"> 
+            <div type="p" n="1">إن كثرة الأعمال تجلب أحزانا كثيرة (Mḫb 177) </div> 
+         </div>
+         <div type="sentence" n="297"> 
+            <div type="p" n="1">يجب على ذوى السعادة منفعة الأصدقاء (Mḫb 178) </div> 
+         </div>
+         <div type="sentence" n="298"> 
+            <div type="p" n="1">لا يعبأ بكلام الفقراء (Mṣr 70) </div> 
+         </div>
+         <div type="sentence" n="299"> 
+            <div type="p" n="1">إن جميع الناس يشتهون الكرامة (Mḫb 179) </div> 
+         </div>
+         <div type="sentence" n="300"> 
+            <div type="p" n="1">من نظر إلى من كان أخس منه لم يغتم (Mḫb 180) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="20">
+         <div type="title" n="title">Υ </div>
+         <div type="sentence" n="301"> 
+            <div type="p" n="1">لا تغلب اللذة على العاقل (bH 23, Mḫb 181) </div> 
+         </div>
+         <div type="sentence" n="302"> 
+            <div type="p" n="1">لا تكثر من مديح نفسك (Mḫb 182) </div> 
+         </div>
+         <div type="sentence" n="303"> 
+            <div type="p" n="1">إن الصحة والعقل لأمران فاضلان فى العمر (bH 24, Mḫb 183) </div> 
+         </div>
+         <div type="sentence" n="304"> 
+            <div type="p" n="1">إن النوم يشبه يشبه الموت والنوم أيضا سبب صحة كل عمر (Mḫb 184-185) </div> 
+         </div>
+         <div type="sentence" n="306"> 
+            <div type="p" n="1">إن المرأة الجميلة معجبة بنفسها (Mḫb 186) </div> 
+         </div>
+         <div type="sentence" n="307"> 
+            <div type="p" n="1">إن المال يورث الشتم أو اللوم (bH 25, Mḫb 187) </div> 
+         </div>
+         <div type="sentence" n="308"> 
+            <div type="p" n="1">أذهب عن مذهبك الأمور القبيحة (Mḫb 188) </div> 
+         </div>
+         <div type="sentence" n="309"> 
+            <div type="p" n="1">ينبغى أن تفهم المرأة والصديق (Mḫb 189) </div> 
+         </div>
+         <div type="sentence" n="310"> 
+            <div type="p" n="1">إن النوم سلامة الجسد والنوم أيضا يكسر الجوع الشديد (Mḫb 191-192) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="21">
+         <div type="title" n="title">Φ </div>
+         <div type="sentence" n="312"> 
+            <div type="p" n="1">لا تطرح صديقك فى بلية إذا أنت غضبت (Mḫb 190) </div> 
+         </div>
+         <div type="sentence" n="313"> 
+            <div type="p" n="1">إن الصديق إذا سعى لصديقه فإنه إنما سعى لنفسه (Mṣr 72, Mḫb 193) </div> 
+         </div>
+         <div type="sentence" n="314"> 
+            <div type="p" n="1">ليس بين الصديق الضار والعدو فرق (bH 26) </div> 
+         </div>
+         <div type="sentence" n="315"> 
+            <div type="p" n="1">امدح الأصدقاء أكثر من مدحك لنفسك (bH 27) </div> 
+         </div>
+         <div type="sentence" n="316"> 
+            <div type="p" n="1">إن اتخاذ الأولاد ارتباط محبة عظيمة (bH 28, Mḫb 194) </div> 
+         </div>
+         <div type="sentence" n="317"> 
+            <div type="p" n="1">إذا كان لك أصدقاء فاعلم أن لك كنوزا (bH 29, Mḫb 195) </div> 
+         </div>
+         <div type="sentence" n="318"> 
+            <div type="p" n="1">كن محبا للتعب يحسن حالك (bH 30) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="22">
+         <div type="title" n="title">Χ </div>
+         <div type="sentence" n="319"> 
+            <div type="p" n="1">إن الأشياء كلها تكون وتميز بالزمان (Mḫb 196) </div> 
+         </div>
+         <div type="sentence" n="320"> 
+            <div type="p" n="1">إن المرأة فى البيت مؤذية كأذى الشتاء (Mḫb 197) </div> 
+         </div>
+         <div type="sentence" n="321"> 
+            <div type="p" n="1">إذا أحسن إليك فى وقت حاجتك فكاف عليه فى الوقت الذى ينبغى (Mḫb 198) </div> 
+         </div>
+         <div type="sentence" n="322"> 
+            <div type="p" n="1">اضبط لسانك وافهم ما تتكلم به (Mḫb 199) </div> 
+         </div>
+         <div type="sentence" n="323"> 
+            <div type="p" n="1">اذكر ما نالك من الإحسان وانس ما تفعل من الإحسان (bH 31) </div> 
+         </div>
+         <div type="sentence" n="324"> 
+            <div type="p" n="1">إن الزمان يفنى كل شىء وينسى كل أمر (bH 32, Mḫb 200) </div> 
+         </div>
+         <div type="sentence" n="325"> 
+            <div type="p" n="1">إن اليد تغسل اليد والإصبع الإصبع (Št 35, Mṣr 73, Mḫb 201) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="23">
+         <div type="title" n="title">Ψ </div>
+         <div type="sentence" n="326"> 
+            <div type="p" n="1">لا يخفى كذب الكاذب زمانا طويلا (Mḫb 202) </div> 
+         </div>
+         <div type="sentence" n="327"> 
+            <div type="p" n="1">عود نفسك الأمور الصالحة فإنه ليس شىء أكرم من النفس (Mḫb 203-204) </div> 
+         </div>
+         <div type="sentence" n="329"> 
+            <div type="p" n="1">لا تكون للكذب عاقبة صالحة (Mḫb 205) </div> 
+         </div>
+         <div type="sentence" n="330"> 
+            <div type="p" n="1">إن العقل لجام عظيم لأنفس الناس (bH 33, Mḫb 206) </div> 
+         </div>
+         <div type="sentence" n="331"> 
+            <div type="p" n="1">إن طبيب النفس المريضة هو الكلام الحسن الصالح (bH 42, Mḫb 207) </div> 
+         </div>
+         <div type="sentence" n="332"> 
+            <div type="p" n="1">كل حكيم وكل رجل صالح يبغض الكذب (Mḫb 208) </div> 
+         </div>
+         <div type="sentence" n="333"> 
+            <div type="p" n="1">من عاش تماما كثر غمه (bH 43, Mḫb 209) </div> 
+         </div>
+         <div type="sentence" n="334"> 
+            <div type="p" n="1">إن المدح والذم أمران متضادان (Mḫb 210) </div> 
+         </div>
+      </div>
+      <div type="chapter" n="24">
+         <div type="title" n="title">Ω </div>
+         <div type="sentence" n="335"> 
+            <div type="p" n="1">ما ألذ الحيوة إذا لم يشبها حسد (bH 44) </div> 
+         </div>
+         <div type="sentence" n="336"> 
+            <div type="p" n="1">ما أحسن الحسن إن كان مع صاحبه عقل وعفة (Mṣr 33) </div> 
+         </div>
+         <div type="sentence" n="337"> 
+            <div type="p" n="1">إن التزويج غاية حدود الشقاء (bH 45, Mḫb 211) </div> 
+         </div>
+         <div type="sentence" n="338"> 
+            <div type="p" n="1">ما أصلح للأحرار الأفعال الصالحة (Mḫb 212) </div> 
+         </div>
+         <div type="sentence" n="339"> 
+            <div type="p" n="1">ما ألذ ذكر المصائب عند من سلم منها (Mḫb 213) </div> 
+         </div>
+         <div type="sentence" n="340"> 
+            <div type="p" n="1">إن العقل مع الذهن الحسن لمغبوط (Mḫb 214) </div> 
+         </div>
+         <div type="sentence" n="341"> 
+            <div type="p" n="1">إن الحيوة الصالحة مع المذاهب الرديئة لا تتفق (bH 46, Mḫb 215) </div> 
+         </div>
+         <div type="sentence" n="342"> 
+            <div type="p" n="1">ما ألذ الجماع وأكثر أحزانه (bH 47, Mḫb 216) </div> 
+         </div>
+         <div type="sentence" n="343"> 
+            <div type="p" n="1">لا تتعب فيما لا منفعة فيه (bH 22) </div> 
+         </div>
+         <div type="sentence" n="344"> 
+            <div type="p" n="1">الشيب كل عيب (Mṣr 24) </div> 
+         </div>
+         <div type="sentence" n="345"> 
+            <div type="p" n="1">القطر بدوامه يحتفر الصحر (bH 34, Mṣr 63) </div> 
+         </div>
+         <div type="sentence" n="346"> 
+            <div type="p" n="1">إن تباطأت فى السير فالزمان يسرع بك (Mṣr 64) </div> 
+         </div>
+         <div type="sentence" n="347"> 
+            <div type="p" n="1">مشورة البخت أنفع مشورة (bH 41) </div> 
+         </div>
+         <div type="sentence" n="348"> 
+            <div type="p" n="1">لا يكون حمل ... أثقل من العجب (Mṣr 71) </div> 
+         </div>
+         <div type="sentence" n="349"> 
+            <div type="p" n="1">والحرمان مع الحرص والع مع القناعة والأمن مع العفاف والسلامة مع الوحدة (Mṣr 74-75) </div> 
+         </div>
+      </div>
+   </body>
+   
+</TAN-T>

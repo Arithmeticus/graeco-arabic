@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="http://textalign.net/release/TAN-2018/schemas/TAN-TEI.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     id="tag:kalvesmaki.com,2014:conversion:tan-tei:dcgas-Arist-Ar_021"
+     TAN-version="2018">
+   <teiHeader> 
+      <fileDesc> 
+         <titleStmt> 
+            <title>De sophisticis elenchis (so-called Other Translation, only ch. 1)</title> 
+            <author>Aristotle</author> 
+            <editor>ʿAbd al-Raḥmān Badawī</editor> 
+            <funder>Andrew W. Mellon Foundation</funder> 
+         </titleStmt> 
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc> 
+            <biblStruct> 
+               <monogr> 
+                  <author>Aristotle</author> 
+                  <title>Manṭiq Arisṭū</title> 
+                  <editor>ʿAbd al-Raḥmān Badawī</editor> 
+                  <imprint> 
+                     <pubPlace>Cairo</pubPlace> 
+                     <publisher>Maṭbaʿat Dār al-kutub al-miṣrīyah</publisher> 
+                     <biblScope unit="vol">3</biblScope> 
+                     <biblScope unit="pp" from="737" to="1018">737-1018</biblScope> 
+                     <date>1952</date> 
+                  </imprint> 
+               </monogr> 
+            </biblStruct> 
+         </sourceDesc> 
+      </fileDesc> 
+      <!--<encodingDesc>
+      <editorialDecl default='NO'>
+        <correction status='high' default='NO' method='silent'>
+          <p>Data Entry</p>
+        </correction>
+      </editorialDecl>
+      <refsDecl n='text=1' doctype='TEI.2'>
+        <state unit='text' />
+        <state unit='chapter' n='chunk' />
+      </refsDecl>
+    </encodingDesc>--> 
+      <!--<profileDesc>
+      <langUsage default='NO'>
+        <language id='arabic'>Arabic</language>
+      </langUsage>
+    </profileDesc>--> 
+   </teiHeader>
+   <head xmlns="tag:textalign.net,2015:ns">
+      <name>De sophisticis elenchis (so-called Other Translation, only ch. 1) by Aristotle in ara published 1952</name>
+      <license which="public zero"/>
+      <licensor who="uv"/>
+      <key>
+         <IRI>tag:kalvesmaki.com,2014:tan-key:dcgas</IRI>
+         <name>Definitions of entities mentioned in DCGAS files</name>
+         <location href="key/DCGAS.TAN-key.xml" when-accessed="2018-02-06-05:00"/>
+      </key>
+      <source which="Aristotle Manṭiq 1952"/>
+      <definitions>
+         <work which="De sophisticis elenchis"/>
+         <div-type xml:id="chapter" which="chapter"/>
+         <algorithm xml:id="xslt">
+            <IRI>tag:kalvesmaki.com,2014:stylesheet:convert-dcgas-to-tan</IRI>
+            <name>Stylesheet for converting TEI.2 from the Digital Corpus for Greco-Arabic
+                        Studies to TAN-TEI</name>
+         </algorithm>
+         <person xml:id="uv" which="Uwe Vagelpohl"/>
+         <role xml:id="stylesheet" which="stylesheet"/>
+         <role xml:id="editor" which="editor"/>
+         <role xml:id="funder" which="funder"/>
+         <organization xml:id="awmf" which="Andrew W. Mellon Foundation"/>
+      </definitions>
+      <resp who="xslt" roles="stylesheet"/>
+      <resp who="uv" roles="editor"/>
+      <resp roles="funder" who="awmf"/>
+      <change who="xslt" when="2018-02-06-05:00">Converted from original file at Arist-Ar_021</change>
+   </head>
+   <text>
+      <body xml:lang="ara"> 
+         <pb n="737"/> 
+         <div n="0" type="chapter"> 
+            <p>بسم الله الرحمن الرحيم </p> 
+            <ab type="title">«سوفسطيقا» بنقل الفاضل أبى زكريا يحيى بن عدى — أعلى الله منزلته — ، وبنقل أبى على عيسى بن اسحق بن زرعة، وبنقل قديم منسوب إلى الناعمى، مثبت فى كل صفح ما نقله كل واحد، وغيره، عن المعانى الثابتة فى ذلك الصفح </ab> 
+            <pb n="738"/> 
+            <pb n="739"/> 
+            <pb n="740"/> 
+            <pb n="741"/> 
+            <pb n="742"/> 
+            <ab type="title">كتاب أرسطوطالس على «مباكتة السوفسطائيين» ترجمة أخرى: </ab> 
+         </div> 
+         <div n="1" type="chapter"> 
+            <p>إنا قائلون على المباكتات السوفسطائية التى ترى أنها مباكتات، وإنما هى مضلات وليس بمباكتات؛ ومبتدئون كالطبيعة من المقدمات الأولى. ومن المعروف أن من القياسات ما هو موجود، ومنها ما ليس بموجود، لكن يظن أنه صحيح. وكما أنه قد يكون فى سائر الأشياء الاشتباه، وأن يلحق الظن فيها من قبل الاشتباه، كذلك يكون فى الكلام أيضا. وقياس ذلك أن من ذوى النيات من له النية الحسنة، ومنهم من يتراءى بحسن النية ويفخر بها ويموه بإظهار التصاون. </p> 
+         </div> 
+         <pb n="743"/> 
+         <pb n="744"/> 
+         <pb n="745"/> 
+         <pb n="746"/> 
+         <pb n="747"/> 
+         <pb n="748"/> 
+         <pb n="749"/> 
+         <pb n="750"/> 
+         <pb n="751"/> 
+         <pb n="752"/> 
+         <pb n="753"/> 
+         <pb n="754"/> 
+         <pb n="755"/> 
+         <pb n="756"/> 
+         <pb n="757"/> 
+         <pb n="758"/> 
+         <pb n="759"/> 
+         <pb n="760"/> 
+         <pb n="761"/> 
+         <pb n="762"/> 
+         <pb n="763"/> 
+         <pb n="764"/> 
+         <pb n="765"/> 
+         <pb n="766"/> 
+         <pb n="767"/> 
+         <pb n="768"/> 
+         <pb n="769"/> 
+         <pb n="770"/> 
+         <pb n="771"/> 
+         <pb n="772"/> 
+         <pb n="773"/> 
+         <pb n="774"/> 
+         <pb n="775"/> 
+         <pb n="776"/> 
+         <pb n="777"/> 
+         <pb n="778"/> 
+         <pb n="779"/> 
+         <pb n="780"/> 
+         <pb n="781"/> 
+         <pb n="782"/> 
+         <pb n="783"/> 
+         <pb n="784"/> 
+         <pb n="785"/> 
+         <pb n="786"/> 
+         <pb n="787"/> 
+         <pb n="788"/> 
+         <pb n="789"/> 
+         <pb n="790"/> 
+         <pb n="791"/> 
+         <pb n="792"/> 
+         <pb n="793"/> 
+         <pb n="794"/> 
+         <pb n="795"/> 
+         <pb n="796"/> 
+         <pb n="797"/> 
+         <pb n="798"/> 
+         <pb n="799"/> 
+         <pb n="800"/> 
+         <pb n="801"/> 
+         <pb n="802"/> 
+         <pb n="803"/> 
+         <pb n="804"/> 
+         <pb n="805"/> 
+         <pb n="806"/> 
+         <pb n="807"/> 
+         <pb n="808"/> 
+         <pb n="809"/> 
+         <pb n="810"/> 
+         <pb n="811"/> 
+         <pb n="812"/> 
+         <pb n="813"/> 
+         <pb n="814"/> 
+         <pb n="815"/> 
+         <pb n="816"/> 
+         <pb n="817"/> 
+         <pb n="818"/> 
+         <pb n="819"/> 
+         <pb n="820"/> 
+         <pb n="821"/> 
+         <pb n="822"/> 
+         <pb n="823"/> 
+         <pb n="824"/> 
+         <pb n="825"/> 
+         <pb n="826"/> 
+         <pb n="827"/> 
+         <pb n="828"/> 
+         <pb n="829"/> 
+         <pb n="830"/> 
+         <pb n="831"/> 
+         <pb n="832"/> 
+         <pb n="833"/> 
+         <pb n="834"/> 
+         <pb n="835"/> 
+         <pb n="836"/> 
+         <pb n="837"/> 
+         <pb n="838"/> 
+         <pb n="839"/> 
+         <pb n="840"/> 
+         <pb n="841"/> 
+         <pb n="842"/> 
+         <pb n="843"/> 
+         <pb n="844"/> 
+         <pb n="845"/> 
+         <pb n="846"/> 
+         <pb n="847"/> 
+         <pb n="848"/> 
+         <pb n="849"/> 
+         <pb n="850"/> 
+         <pb n="851"/> 
+         <pb n="852"/> 
+         <pb n="853"/> 
+         <pb n="854"/> 
+         <pb n="855"/> 
+         <pb n="856"/> 
+         <pb n="857"/> 
+         <pb n="858"/> 
+         <pb n="859"/> 
+         <pb n="860"/> 
+         <pb n="861"/> 
+         <pb n="862"/> 
+         <pb n="863"/> 
+         <pb n="864"/> 
+         <pb n="865"/> 
+         <pb n="866"/> 
+         <pb n="867"/> 
+         <pb n="868"/> 
+         <pb n="869"/> 
+         <pb n="870"/> 
+         <pb n="871"/> 
+         <pb n="872"/> 
+         <pb n="873"/> 
+         <pb n="874"/> 
+         <pb n="875"/> 
+         <pb n="876"/> 
+         <pb n="877"/> 
+         <pb n="878"/> 
+         <pb n="879"/> 
+         <pb n="880"/> 
+         <pb n="881"/> 
+         <pb n="882"/> 
+         <pb n="883"/> 
+         <pb n="884"/> 
+         <pb n="885"/> 
+         <pb n="886"/> 
+         <pb n="887"/> 
+         <pb n="888"/> 
+         <pb n="889"/> 
+         <pb n="890"/> 
+         <pb n="891"/> 
+         <pb n="892"/> 
+         <pb n="893"/> 
+         <pb n="894"/> 
+         <pb n="895"/> 
+         <pb n="896"/> 
+         <pb n="897"/> 
+         <pb n="898"/> 
+         <pb n="899"/> 
+         <pb n="900"/> 
+         <pb n="901"/> 
+         <pb n="902"/> 
+         <pb n="903"/> 
+         <pb n="904"/> 
+         <pb n="905"/> 
+         <pb n="906"/> 
+         <pb n="907"/> 
+         <pb n="908"/> 
+         <pb n="909"/> 
+         <pb n="910"/> 
+         <pb n="911"/> 
+         <pb n="912"/> 
+         <pb n="913"/> 
+         <pb n="914"/> 
+         <pb n="915"/> 
+         <pb n="916"/> 
+         <pb n="917"/> 
+         <pb n="918"/> 
+         <pb n="919"/> 
+         <pb n="920"/> 
+         <pb n="921"/> 
+         <pb n="922"/> 
+         <pb n="923"/> 
+         <pb n="924"/> 
+         <pb n="925"/> 
+         <pb n="926"/> 
+         <pb n="927"/> 
+         <pb n="928"/> 
+         <pb n="929"/> 
+         <pb n="930"/> 
+         <pb n="931"/> 
+         <pb n="932"/> 
+         <pb n="933"/> 
+         <pb n="934"/> 
+         <pb n="935"/> 
+         <pb n="936"/> 
+         <pb n="937"/> 
+         <pb n="938"/> 
+         <pb n="939"/> 
+         <pb n="940"/> 
+         <pb n="941"/> 
+         <pb n="942"/> 
+         <pb n="943"/> 
+         <pb n="944"/> 
+         <pb n="945"/> 
+         <pb n="946"/> 
+         <pb n="947"/> 
+         <pb n="948"/> 
+         <pb n="949"/> 
+         <pb n="950"/> 
+         <pb n="951"/> 
+         <pb n="952"/> 
+         <pb n="953"/> 
+         <pb n="954"/> 
+         <pb n="955"/> 
+         <pb n="956"/> 
+         <pb n="957"/> 
+         <pb n="958"/> 
+         <pb n="959"/> 
+         <pb n="960"/> 
+         <pb n="961"/> 
+         <pb n="962"/> 
+         <pb n="963"/> 
+         <pb n="964"/> 
+         <pb n="965"/> 
+         <pb n="966"/> 
+         <pb n="967"/> 
+         <pb n="968"/> 
+         <pb n="969"/> 
+         <pb n="970"/> 
+         <pb n="971"/> 
+         <pb n="972"/> 
+         <pb n="973"/> 
+         <pb n="974"/> 
+         <pb n="975"/> 
+         <pb n="976"/> 
+         <pb n="977"/> 
+         <pb n="978"/> 
+         <pb n="979"/> 
+         <pb n="980"/> 
+         <pb n="981"/> 
+         <pb n="982"/> 
+         <pb n="983"/> 
+         <pb n="984"/> 
+         <pb n="985"/> 
+         <pb n="986"/> 
+         <pb n="987"/> 
+         <pb n="988"/> 
+         <pb n="989"/> 
+         <pb n="990"/> 
+         <pb n="991"/> 
+         <pb n="992"/> 
+         <pb n="993"/> 
+         <pb n="994"/> 
+         <pb n="995"/> 
+         <pb n="996"/> 
+         <pb n="997"/> 
+         <pb n="998"/> 
+         <pb n="999"/> 
+         <pb n="1000"/> 
+         <pb n="1001"/> 
+         <pb n="1002"/> 
+         <pb n="1003"/> 
+         <pb n="1004"/> 
+         <pb n="1005"/> 
+         <pb n="1006"/> 
+         <pb n="1007"/> 
+         <pb n="1008"/> 
+         <pb n="1009"/> 
+         <pb n="1010"/> 
+         <pb n="1011"/> 
+         <pb n="1012"/> 
+         <pb n="1013"/> 
+         <pb n="1014"/> 
+         <pb n="1015"/> 
+         <pb n="1016"/> 
+         <pb n="1017"/> 
+         <div n="35" type="chapter"> 
+            <p>][ نسخت هذا النقل من نسخة بخط الشيخ أبى الخير الحسن بن سوار رضى الله عنه. وفى آخرها ما هذه حكايته: </p> 
+            <p>نسخت هذا النقل من نسخة خيل إلى أنها بخط أبى نصر الفارابى، كان النصف الأول منها مصححا جيدا، والنصف الثانى مسقاما. </p> 
+            <p>قال الشيخ أبو الخير الحسن بن سوار رضى الله عنه: </p> 
+            <p>لما كان الناقل يحتاج — فى تأدية المعنى إلى فهمه باللغة التى منها ينقل — إلى أن يكون متصورا له كتصور قائله، وإلى أن يكون عارفا باستعمال اللغة التى منها ينقل، والتى إليها ينقل، وكان أثانس الراهب غير قيم بمعانى أرسطوطالس فيه — داخل نقله الخلل لا محالة. </p> 
+            <p>ولما كان من نقل هذا الكتاب من السريانية بنقل أثانس — إلى العربية، ممن قد ذكر اسمه، لم يقع إليهم تفسير له — عولوا على أفهامهم فى إدراك معانيه: فكل اجتهد فى إصابة الحق وإدراك الغرض الذى إياه قصد الفيلسوف، فغيروا ما فهموه من نقل أثانس إلى العربية؛ </p> 
+            <p>فلأنا أحببنا الوقوف على ما وقع لكل واحد منهم، كتبنا جميع النقول التى وقعت إلينا، ليقع التأمل لكل واحد منها ويستعان ببعضها على بعض فى إدراك المعنى. </p> 
+            <p>وقد كان الفاضل يحيى بن عدى فسر هذا الكتاب تفسيراً رأيت منه الكثير وقدرته نحوا من ثلثيه بالسريانية والعربية، وأظن 〈أنه〉 تممه، <pb n="1018"/>ولم يوجد فى كتبه بعد وفاته، وتصرفت بى الظنون فى أمره: فتارة أظن أنه أبطله لأنه لم يرتضه، وتارة أظن أنه سرق، وهذا أقوى فى نفسى. ونقل هذا الكتاب النقل المذكور قبل تفسيره إياه، فلذلك لحق نقله اعتياص ما لأنه لم يشارف المعنى، واتبع السريانى فى النقل. </p> 
+            <p>وقد وجد فى وقتنا هذا تفسير الإسكندر الأفروذيسى له باليونانية، تعجز من أوله كراسة، ولم يخرج منه إلا اليسير. </p> 
+            <p>واتصل بى أن أبا إسحق ابراهيم بن بكوش نقل هذا الكتاب من السريانى إلى العربى، وأنه كان يجتمع مع يوحنا القس اليونانى المهندس المعروف بابن فتيلة، على إصلاح مواضع منه من اليوانى. ولم يقع إلى. </p> 
+            <p>وقيل إن أبا بشر — رحمه الله — أصلح النقل الأول، أو نقله نقلا آخر، ولم يقع إلى. </p> 
+            <p>وكتبت هذه الجملة ليعلم من يقع إليه هذا الكتاب صورة أمره والسبب فى إثباتى جميع النقول على السبيل المسطور ][ </p> 
+            <p>هنا تنتهى المخطوطة رقم ٢٣٤٦ عربى بالمكتبة الأهلية بباريس. </p>
+         </div>
+      </body>
+   </text>
+</TEI>
